@@ -1,0 +1,36 @@
+{
+  "hash": "d52c47b2",
+  "browserHash": "a1ea3ee4",
+  "optimized": {
+    "@wovosoft/wovoui": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@wovosoft_wovoui.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@wovosoft/wovoui/dist/index.es.js",
+      "needsInterop": false
+    },
+    "vue": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/vue.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/vue-router.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/nprogress.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}
