@@ -3,7 +3,7 @@ import type {DefaultThemeOptions} from 'vuepress'
 // @ts-ignore
 import sidebar from "./sidebar";
 
-const {path} = require('@vuepress/utils')
+const path = require('path');
 
 export default defineUserConfig<DefaultThemeOptions>({
     // site config

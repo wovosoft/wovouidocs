@@ -1,5 +1,4 @@
 import {defineClientAppEnhance} from '@vuepress/client'
-import "./styles/styles.scss";
 import * as components from "@wovosoft/wovoui";
 
 export default defineClientAppEnhance(({app, router, siteData}) => {
