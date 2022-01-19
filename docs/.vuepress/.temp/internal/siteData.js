@@ -2,7 +2,7 @@ export const siteData = {
   "base": "/",
   "lang": "en-US",
   "title": "wovoui",
-  "description": "Just playing around",
+  "description": "Bootstrap 5 & Vue 3 UI Components",
   "head": [],
   "locales": {}
 }

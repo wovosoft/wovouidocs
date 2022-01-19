@@ -1,5 +1,6 @@
 export const themeData = {
   "logo": "https://vuejs.org/images/logo.png",
+  "repo": "https://github.com/wovosoft/wovouidocs",
   "sidebar": [
     "/alerts/",
     "/badges/",
@@ -19,7 +20,6 @@ export const themeData = {
   },
   "navbar": [],
   "darkMode": true,
-  "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebarDepth": 2,

@@ -15,6 +15,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     theme: '@vuepress/theme-default',
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
+        repo: 'https://github.com/wovosoft/wovouidocs',
         sidebar
     },
     plugins: [],
