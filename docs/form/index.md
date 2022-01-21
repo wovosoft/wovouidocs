@@ -57,10 +57,6 @@ const form1 = reactive({
 });
 </script>
 ```
-
-
-<Calendar></Calendar>
-
 <script setup>
 import {reactive} from "vue";
 const form1=reactive({
