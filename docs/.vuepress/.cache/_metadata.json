@@ -1,12 +1,7 @@
 {
-  "hash": "78bc77b1",
-  "browserHash": "e963e25f",
+  "hash": "e83e9641",
+  "browserHash": "b0551003",
   "optimized": {
-    "@wovosoft/wovoui": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@wovosoft_wovoui.js",
-      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@wovosoft/wovoui/dist/index.es.js",
-      "needsInterop": false
-    },
     "vue": {
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/vue.js",
       "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",

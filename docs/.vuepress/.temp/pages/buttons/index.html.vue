@@ -4,7 +4,7 @@ Includes support for a handful of contextual variations, sizes, states, and more
 <h2 id="overview" tabindex="-1"><a class="header-anchor" href="#overview" aria-hidden="true">#</a> Overview</h2>
 <p><code>&lt;Button&gt;</code> component generates either a native<code>button</code> element, <code>a</code> element,
 or <code>router-link</code> component with the styling of a button.</p>
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <w-button>Button</w-button>
     <w-button variant="danger">Button</w-button>
     <w-button variant="success">Button</w-button>
@@ -25,6 +25,7 @@ The default type is <code>'button'</code>.</p>
 <p>Note the type prop has no effect when either href or to props are set.</p>
 <h2 id="sizing" tabindex="-1"><a class="header-anchor" href="#sizing" aria-hidden="true">#</a> Sizing</h2>
 <p>Fancy larger or smaller buttons? Specify <code>lg</code> or <code>sm</code> via the <code>size</code> prop.</p>
+<div class="bootstrap">
 <WRow>
     <WCol lg="4" class="pb-2">
         <WButton size="sm">Small Button</WButton>
@@ -36,6 +37,7 @@ The default type is <code>'button'</code>.</p>
         <WButton size="lg">Large Button</WButton>
     </WCol>
 </WRow>
+</div>
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Row</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Col</span> <span class="token attr-name">lg</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>4<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pb-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">size</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sm<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Small Button<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Col</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Col</span> <span class="token attr-name">lg</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>4<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pb-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span><span class="token punctuation">></span></span>Default Button<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Col</span><span class="token punctuation">></span></span>
@@ -47,7 +49,7 @@ By default, <code>&lt;Button&gt;</code> will render with the secondary variant.
 The variant prop adds the Bootstrap v5 class .btn-<code>variant</code> on the rendered button.</p>
 <h2 id="solid-color-variants" tabindex="-1"><a class="header-anchor" href="#solid-color-variants" aria-hidden="true">#</a> Solid color variants</h2>
 <p><code>primary</code>, <code>secondary</code>, <code>success</code>, <code>danger</code>, <code>warning</code>, <code>info</code>, <code>light</code> , <code>dark</code></p>
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <WButton variant="primary">Primary</WButton>
     <WButton variant="secondary">Secondary</WButton>
     <WButton variant="success">Success</WButton>
@@ -67,7 +69,7 @@ The variant prop adds the Bootstrap v5 class .btn-<code>variant</code> on the re
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dark<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Dark<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="outline-color-variants" tabindex="-1"><a class="header-anchor" href="#outline-color-variants" aria-hidden="true">#</a> Outline color variants</h2>
 <p>Use Property <code>outline</code> to apply outlined color variants.</p>
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <WButton outline variant="primary">Primary</WButton>
     <WButton outline variant="secondary">Secondary</WButton>
     <WButton outline variant="success">Success</WButton>
@@ -87,11 +89,13 @@ The variant prop adds the Bootstrap v5 class .btn-<code>variant</code> on the re
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">outline</span> <span class="token attr-name">variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dark<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Dark<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="block-level-buttons" tabindex="-1"><a class="header-anchor" href="#block-level-buttons" aria-hidden="true">#</a> Block level buttons</h2>
 <p>Block Level button is a full width button of its container. Use prop <code>block</code> to make a block/full width button.</p>
+<div class="bootstrap">
 <WButton block variant="primary">Block Level Button</WButton>
+</div>
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">block</span> <span class="token attr-name">variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Block Level Button<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="pill-style" tabindex="-1"><a class="header-anchor" href="#pill-style" aria-hidden="true">#</a> Pill style</h2>
 <p>Prefer buttons with a more rounded-pill style? Just set the prop pill to <code>true</code>.</p>
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <WButton pill>Button</WButton>
     <WButton pill variant="primary">Button</WButton>
     <WButton pill variant="outline-secondary">Button</WButton>
@@ -107,7 +111,7 @@ The variant prop adds the Bootstrap v5 class .btn-<code>variant</code> on the re
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">pill</span> <span class="token attr-name">variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>info<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Button<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="squared-style" tabindex="-1"><a class="header-anchor" href="#squared-style" aria-hidden="true">#</a> Squared style</h2>
 <p>Prefer buttons with a more square corner style? Just set the prop squared to <code>true</code>.</p>
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <WButton squared>Button</WButton>
     <WButton squared variant="primary">Button</WButton>
     <WButton squared variant="outline-secondary">Button</WButton>
@@ -156,7 +160,7 @@ set.</li>
 export default {
     data(){
         return {
-componentReference: {
+            componentReference: {
                 header: [
                     "Property",
                     "Type",
@@ -247,7 +251,7 @@ componentReference: {
 </script>
 
 <style>
-.child-m-2 > button {
-    margin: 2px;
+.child-m-2  button {
+    margin: 2px !important;
 }
 </style>

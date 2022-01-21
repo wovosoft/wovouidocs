@@ -10,7 +10,12 @@ const routeItems = [
   ["v-78191965","/cards/",{"title":"Cards"},["/cards/index.html","/cards/index.md"]],
   ["v-2394e1a6","/dropdowns/",{"title":"Dropdown"},["/dropdowns/index.html","/dropdowns/index.md"]],
   ["v-d02a7d16","/dropdowns/input.html",{"title":"Form Input"},["/dropdowns/input","/dropdowns/input.md"]],
-  ["v-12d19c72","/Form/",{"title":"Form"},["/Form/index.html","/Form/index.md"]],
+  ["v-2643f7a4","/form/checkbox.html",{"title":"Form Checkbox"},["/form/checkbox","/form/checkbox.md"]],
+  ["v-14948c92","/form/",{"title":"Form"},["/form/index.html","/form/index.md"]],
+  ["v-909a953e","/form/input.html",{"title":"Form Input"},["/form/input","/form/input.md"]],
+  ["v-64ecefd0","/form/radio.html",{"title":"Form Radio"},["/form/radio","/form/radio.md"]],
+  ["v-b3c164ec","/form/rating.html",{"title":"Form Rating"},["/form/rating","/form/rating.md"]],
+  ["v-ccdc4da0","/getting-started/",{"title":"Getting Started"},["/getting-started/index.html","/getting-started/index.md"]],
   ["v-01e68820","/buttons/toolbars/",{"title":"Button Toolbar"},["/buttons/toolbars/index.html","/buttons/toolbars/index.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]

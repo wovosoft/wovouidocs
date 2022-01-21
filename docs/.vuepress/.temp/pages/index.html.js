@@ -5,7 +5,20 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "Developer Information",
+      "slug": "developer-information",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "We are seeking for Sponsor",
+      "slug": "we-are-seeking-for-sponsor",
+      "children": []
+    }
+  ],
   "git": {
     "updatedTime": 1642513682000,
     "contributors": [
@@ -17,4 +30,17 @@ export const data = {
     ]
   },
   "filePathRelative": "index.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

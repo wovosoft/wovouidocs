@@ -17,8 +17,18 @@ export const pagesData = {
   "v-2394e1a6": () => import(/* webpackChunkName: "v-2394e1a6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/index.html.js").then(({ data }) => data),
   // path: /dropdowns/input.html
   "v-d02a7d16": () => import(/* webpackChunkName: "v-d02a7d16" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/input.html.js").then(({ data }) => data),
-  // path: /Form/
-  "v-12d19c72": () => import(/* webpackChunkName: "v-12d19c72" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/Form/index.html.js").then(({ data }) => data),
+  // path: /form/checkbox.html
+  "v-2643f7a4": () => import(/* webpackChunkName: "v-2643f7a4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/checkbox.html.js").then(({ data }) => data),
+  // path: /form/
+  "v-14948c92": () => import(/* webpackChunkName: "v-14948c92" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/index.html.js").then(({ data }) => data),
+  // path: /form/input.html
+  "v-909a953e": () => import(/* webpackChunkName: "v-909a953e" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/input.html.js").then(({ data }) => data),
+  // path: /form/radio.html
+  "v-64ecefd0": () => import(/* webpackChunkName: "v-64ecefd0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/radio.html.js").then(({ data }) => data),
+  // path: /form/rating.html
+  "v-b3c164ec": () => import(/* webpackChunkName: "v-b3c164ec" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/rating.html.js").then(({ data }) => data),
+  // path: /getting-started/
+  "v-ccdc4da0": () => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.js").then(({ data }) => data),
   // path: /buttons/toolbars/
   "v-01e68820": () => import(/* webpackChunkName: "v-01e68820" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/buttons/toolbars/index.html.js").then(({ data }) => data),
   // path: /404.html

@@ -16,6 +16,7 @@ Below is an example of a basic card with mixed content and a fixed width. Cards 
 naturally fill the full width of its parent element. This is easily customized with our various
 [sizing options](https://getbootstrap.com/docs/5.1/components/card/Index.vue#sizing).
 
+<div class="bootstrap">
 <WCard title="Card Title"
 img-src="https://picsum.photos/600/300/?image=25"
 img-alt="Image"
@@ -27,9 +28,9 @@ Some quick example text to build on the card title and make up the bulk of the c
 </WCardText>
 <WButton href="#" variant="primary">Go somewhere</WButton>
 </WCard>
+</div>
 
 ```vue
-
 <Card
     title="Card Title"
     img-src="https://picsum.photos/600/300/?image=25"
@@ -58,6 +59,7 @@ section within a card.
 By default the `<Card>` content is automatically placed in a <code>&lt;CardBody&gt;</code>
 section:
 
+<div class="bootstrap">
 <WCard class="text-center mb-3">
     <div class="bg-secondary text-light">
         This is some content within the default <code>&lt;CardBody&gt;</code> block of the
@@ -65,9 +67,9 @@ section:
         gray <samp>&lt;div&gt;</samp>.
     </div>
 </WCard>
+</div>
 
 ```vue
-
 <Card no-body class="text-center">
 <div class="bg-secondary text-light">
     This is some content without the default <samp>&lt;CardBody&gt;</samp> section. Notice the
@@ -78,12 +80,14 @@ section:
 
 Disable the automatic `<CardBody>` section (and associated padding) by setting the prop no-body on the `<Card>`.
 
+<div class="bootstrap">
 <WCard no-body class="text-center">
     <div class="bg-secondary text-light">
         This is some content without the default `CardBody` section. Notice the
         lack of padding between the card's border and this gray <samp>&lt;div&gt;</samp>.
     </div>
 </WCard>
+</div>
 
 Note that with `no-body` enabled, the content of the
 `title` and `sub-title` props will not be rendered.
@@ -104,6 +108,7 @@ in the card body will have its bottom margin automatically removed (via CSS). Te
 Links can be added and placed next to each other by adding the .card-link class to a `<a>`
 tag (or `<Link>` component).
 
+<div class="bootstrap">
 <WCard title="Card title" sub-title="Card subtitle" class="mb-3">
 <WCardText>
     Some quick example text to build on the <em>card title</em> and make up the bulk of the card's
@@ -115,17 +120,15 @@ A second paragraph of text in the card.
 <a href="#" class="card-link">Card link</a>
 <WLink href="#" class="card-link">Another link</WLink>
 </WCard>
+</div>
 
 ```vue
-
 <Card title="Card title" sub-title="Card subtitle" class="mb-3">
 <CardText>
     Some quick example text to build on the <em>card title</em> and make up the bulk of the card's
     content.
 </CardText>
-
 <CardText>A second paragraph of text in the card.</CardText>
-
 <a href="#" class="card-link">Card link</a>
 <Link href="#" class="card-link">Another link</Link>
 </Card>
@@ -140,7 +143,7 @@ prop will be responsive and will adjust its width when the width of the card is 
 Alternatively you can manually place images inside `<Card>` using the sub-component `<CardImg>`. See the kitchen sink
 example below for usage.
 
-<div>
+<div class="bootstrap">
 <div>
 <h4>Top and Bottom</h4>
 <WCardGroup deck>
@@ -172,7 +175,6 @@ Some quick example text to build on the card and make up the bulk of the card's 
 </div>
 
 ```vue
-
 <div>
 <div>
     <h4>Top and Bottom</h4>
@@ -211,11 +213,13 @@ Some quick example text to build on the card and make up the bulk of the card's 
 
 Place the image in the background of the card by setting the boolean prop `overlay`:
 
+<div class="bootstrap">
 <WCard overlay img-src="https://picsum.photos/900/250/?image=3" img-alt="Card Image" text-variant="white" title="Image Overlay" sub-title="Subtitle">
 <WCardText>
 Some quick example text to build on the card and make up the bulk of the card's content.
 </WCardText>
 </WCard>
+</div>
 
 ```vue
 
@@ -236,6 +240,7 @@ Some quick example text to build on the card and make up the bulk of the card's 
 
 Create lists of content in a card with a flush list group.
 
+<div class="bootstrap">
 <WCard style="width: 18rem;" body-class="p-0">
     <WListGroup flush>
         <WListGroupItem>An item</WListGroupItem>
@@ -243,9 +248,9 @@ Create lists of content in a card with a flush list group.
         <WListGroupItem>A third item</WListGroupItem>
     </WListGroup>
 </WCard>
+</div>
 
 ```vue
-
 <Card style="width: 18rem;" body-class="p-0">
 <ListGroup flush>
     <ListGroupItem>An item</ListGroupItem>
@@ -255,6 +260,7 @@ Create lists of content in a card with a flush list group.
 </Card>
 ```
 
+<div class="bootstrap">
 <WCard style="width: 18rem;" no-body>
     <WCardHeader>
         Card Header
@@ -265,9 +271,9 @@ Create lists of content in a card with a flush list group.
         <WListGroupItem>A third item</WListGroupItem>
     </WListGroup>
 </WCard>
+</div>
 
 ```vue
-
 <Card style="width: 18rem;" no-body>
 <CardHeader>
     Card Header
@@ -280,6 +286,7 @@ Create lists of content in a card with a flush list group.
 </Card>
 ```
 
+<div class="bootstrap">
 <WCard style="width: 18rem;" no-body>
     <WListGroup flush>
         <WListGroupItem>An item</WListGroupItem>
@@ -288,9 +295,9 @@ Create lists of content in a card with a flush list group.
     </WListGroup>
     <WCardFooter>Card Footer</WCardFooter>
 </WCard>
+</div>
 
 ```vue
-
 <Card style="width: 18rem;" no-body>
 <ListGroup flush>
     <ListGroupItem>An item</ListGroupItem>
@@ -306,6 +313,7 @@ Create lists of content in a card with a flush list group.
 Mix and match multiple content types to create the card you need, or throw everything in there. Shown below are image
 styles, blocks, text styles, and a list group—all wrapped in a fixed-width card.
 
+<div class="bootstrap">
 <WCard style="width: 18rem;" no-body>
     <img src="https://placekitten.com/380/200" class="card-img-top" alt="...">
     <WCardBody>
@@ -322,9 +330,9 @@ styles, blocks, text styles, and a list group—all wrapped in a fixed-width car
         <WCardLink href="#">Another link</WCardLink>
     </WCardBody>
 </WCard>
+</div>
 
 ```vue
-
 <Card style="width: 18rem;" no-body>
 <img src="https://placekitten.com/380/200" class="card-img-top" alt="...">
 <CardBody>
@@ -350,13 +358,14 @@ Add an optional header and/or footer within a card via the `header/footer` props
 wrapper element tags used by setting the `header-tag` and `footer-tag`
 props (both default is `div`)
 
+<div class="bootstrap">
 <WCard header="featured" header-tag="header" footer="Card Footer" footer-tag="footer" title="Title">
 <WCardText>Header and footers using props.</WCardText>
 <WButton href="#" variant="primary">Go somewhere</WButton>
 </WCard>
+</div>
 
 ```vue
-
 <Card
     header="featured"
     header-tag="header"
@@ -368,6 +377,7 @@ props (both default is `div`)
 </Card>
 ```
 
+<div class="bootstrap">
 <WCard title="Title" class="mt-3" header-tag="header" footer-tag="footer">
     <template #header>
         <h6 class="mb-0">Header Slot</h6>
@@ -378,9 +388,9 @@ props (both default is `div`)
         <em>Footer Slot</em>
     </template>
 </WCard>
+</div>
 
 ```vue
-
 <Card title="Title" class="mt-3" header-tag="header" footer-tag="footer">
 <template #header>
     <h6 class="mb-0">Header Slot</h6>
@@ -393,15 +403,16 @@ props (both default is `div`)
 </Card>
 ```
 
+<div class="bootstrap">
 <WCard header="Quote">
     <blockquote class="blockquote mb-0">
         <p>A well-known quote, contained in a blockquote element.</p>
         <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
     </blockquote>
 </WCard>
+</div>
 
 ```vue
-
 <Card header="Quote">
 <blockquote class="blockquote mb-0">
     <p>A well-known quote, contained in a blockquote element.</p>
@@ -410,11 +421,13 @@ props (both default is `div`)
 </Card>
 ```
 
+<div class="bootstrap">
 <WCard class="text-center" header="Featured" footer="2 days ago">
     <WCardTitle class="card-title">Special title treatment</WCardTitle>
     <WCardText class="card-text">With supporting text below as a natural lead-in to additional content.</WCardText>
     <a href="#" class="btn btn-primary">Go somewhere</a>
 </WCard>
+</div>
 
 ```vue
 
@@ -434,6 +447,7 @@ needed with custom CSS, grid classes, grid Sass mixins, or utilities.
 
 Using the grid, wrap cards in columns and rows as needed.
 
+<div class="bootstrap">
 <WRow>
     <WCol sm="6">
         <WCard>
@@ -450,6 +464,7 @@ Using the grid, wrap cards in columns and rows as needed.
         </WCard>
     </WCol>
 </WRow>
+</div>
 
 ```vue
 

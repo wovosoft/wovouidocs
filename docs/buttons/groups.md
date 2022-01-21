@@ -4,11 +4,13 @@ Group a series of buttons together on a single line or stack them in a vertical 
 
 ## Basic example
 
+<div class="bootstrap">
 <WButtonGroup aria-label="Basic example">
     <WButton variant="primary">Left</WButton>
     <WButton variant="primary">Middle</WButton>
     <WButton variant="primary">Right</WButton>
 </WButtonGroup>
+</div>
 
 ```vue
 
@@ -21,28 +23,31 @@ Group a series of buttons together on a single line or stack them in a vertical 
 
 ## Mixed styles
 
+<div class="bootstrap">
 <WButtonGroup aria-label="Basic mixed styles example">
     <WButton variant="warning">Left</WButton>
     <WButton variant="danger">Middle</WButton>
     <WButton variant="primary">Right</WButton>
 </WButtonGroup>
+</div>
 
 ```vue
-
 <ButtonGroup aria-label="Basic mixed styles example">
-<Button variant="warning">Left</Button>
-<Button variant="danger">Middle</Button>
-<Button variant="primary">Right</Button>
+    <Button variant="warning">Left</Button>
+    <Button variant="danger">Middle</Button>
+    <Button variant="primary">Right</Button>
 </ButtonGroup>
 ```
 
 ### Outlined styles
 
+<div class="bootstrap">
 <WButtonGroup aria-label="Basic outlined example">
     <WButton variant="primary" outline>Left</WButton>
     <WButton variant="primary" outline>Middle</WButton>
     <WButton variant="primary" outline>Right</WButton>
 </WButtonGroup>
+</div>
 
 ```vue
 
@@ -57,14 +62,17 @@ You can also make similar result by following way without using `outline` prop.
 
 ## Basic checkbox toggle button group
 
+<div class="bootstrap">
 <WButtonGroup aria-label="Basic checkbox toggle button group">
     <WCheckbox button v-for="x in 5">Checkbox {{ x }}</WCheckbox> 
 </WButtonGroup>
+</div>
 
 ## Button toolbar
 
 Combine sets of button groups into button toolbars for more complex components.
 
+<div class="bootstrap">
 <WButtonToolbar aria-label="Toolbar with button groups">
     <WButtonGroup class="me-2" aria-label="First group">
         <WButton variant="primary">1</WButton>
@@ -81,6 +89,7 @@ Combine sets of button groups into button toolbars for more complex components.
         <WButton variant="info">8</WButton>
     </WButtonGroup>
 </WButtonToolbar>
+</div>
 
 ```vue
 
@@ -104,7 +113,7 @@ Combine sets of button groups into button toolbars for more complex components.
 
 Feel free to mix input groups with button groups in your toolbars. Similar to the example above, you’ll likely need some
 utilities though to space things properly.
-
+<div class="bootstrap">
 <WButtonToolbar class="mb-3" aria-label="Toolbar with button groups">
     <WButtonGroup class="me-2" aria-label="First group">
         <WButton variant="secondary" outline>1</WButton>
@@ -121,6 +130,7 @@ utilities though to space things properly.
         />
     </WInputGroup>
 </WButtonToolbar>
+</div>
 
 ```vue
 <ButtonToolbar class="mb-3" aria-label="Toolbar with button groups">
@@ -143,6 +153,7 @@ utilities though to space things properly.
 
 ## Justified Toolbar
 
+<div class="bootstrap">
 <WButtonToolbar justified aria-label="Toolbar with button groups">
     <WButtonGroup aria-label="First group">
         <WButton variant="secondary" outline>1</WButton>
@@ -159,6 +170,7 @@ utilities though to space things properly.
         />
     </WInputGroup>
 </WButtonToolbar>
+</div>
 
 ```vue
 <ButtonToolbar justified aria-label="Toolbar with button groups">
@@ -184,12 +196,14 @@ utilities though to space things properly.
 Instead of applying button sizing to every button in a group, just add size to each button group,
 including each one when nesting multiple groups.
 
+<div class="bootstrap">
 <div class="mb-2" v-for="size in ['lg',null,'sm']">
     <WButtonGroup :size="size" aria-label="Button Group">
         <WButton outline>Left</WButton>
         <WButton outline>Middle</WButton>
         <WButton outline>Right</WButton>
     </WButtonGroup>
+</div>
 </div>
 
 ```vue
@@ -207,11 +221,13 @@ including each one when nesting multiple groups.
 Make a set of buttons appear vertically stacked rather than horizontally by setting the `vertical`
 prop. Split button dropdowns are not supported here.
 
+<div class="bootstrap">
 <WButtonGroup vertical>
     <WButton>Top</WButton>
     <WButton>Middle</WButton>
     <WButton>Bottom</WButton>
 </WButtonGroup>
+</div>
 
 ```vue
 <ButtonGroup vertical>
@@ -226,6 +242,7 @@ prop. Split button dropdowns are not supported here.
 Add `<Dropdown>` menus directly inside your `<ButtonGroup>`. Note that split
 dropdown menus are not supported when prop `vertical` is set.
 
+<div class="bootstrap">
 <WButtonGroup>
     <WButton>Button</WButton>
     <WDropdown right text="Menu">
@@ -241,6 +258,7 @@ dropdown menus are not supported when prop `vertical` is set.
         <WDropdownItem>Item 3</WDropdownItem>
     </WDropdown>
 </WButtonGroup>
+</div>
 
 ```vue
 <ButtonGroup>

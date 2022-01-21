@@ -1,10 +1,15 @@
-.page{
-  @import "bootstrap/scss/bootstrap";
+//.page .bootstrap {
+//  @import "@wovosoft/wovoui/dist/style.css";
+//  @import "bootstrap/scss/bootstrap";
+//}
+.page {
   @import "@wovosoft/wovoui/dist/style.css";
+  @import "bootstrap/scss/bootstrap";
 }
 
-//.child-m-2 {
-//  button {
-//    margin: 2px;
-//  }
-//}
+.child-m-2 {
+  button {
+    margin: 2px;
+  }
+}
+

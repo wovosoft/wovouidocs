@@ -1,4 +1,5 @@
 export default [
+    '/getting-started/',
     '/alerts/',
     '/badges/',
     '/breadcrumbs/',
@@ -7,6 +8,15 @@ export default [
     '/buttons/toolbars/',
     '/cards/',
     '/dropdowns/',
-    '/form/',
-    '/form/input/',
+    {
+        text: 'Form',
+        link: '/form/',
+        collapsible: true,
+        children: [
+            "/form/checkbox",
+            "/form/input",
+            "/form/radio/",
+            "/form/rating/",
+        ]
+    }
 ]

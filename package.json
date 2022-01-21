@@ -6,7 +6,6 @@
   "author": "Narayan Adhikary <wovosoft@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-register-components": "^2.0.0-beta.33",
     "node-sass": "^7.0.1",
     "sass": "^1.49.0",
     "sass-loader": "^12.4.0",
@@ -17,6 +16,6 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "@wovosoft/wovoui": "^0.1.2"
+    "@wovosoft/wovoui": "^0.1.3"
   }
 }

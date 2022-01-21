@@ -7,7 +7,7 @@ Includes support for a handful of contextual variations, sizes, states, and more
 `<Button>` component generates either a native`button` element, `a` element,
 or `router-link` component with the styling of a button.
 
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <w-button>Button</w-button>
     <w-button variant="danger">Button</w-button>
     <w-button variant="success">Button</w-button>
@@ -40,6 +40,7 @@ Note the type prop has no effect when either href or to props are set.
 
 Fancy larger or smaller buttons? Specify `lg` or `sm` via the `size` prop.
 
+<div class="bootstrap">
 <WRow>
     <WCol lg="4" class="pb-2">
         <WButton size="sm">Small Button</WButton>
@@ -51,6 +52,7 @@ Fancy larger or smaller buttons? Specify `lg` or `sm` via the `size` prop.
         <WButton size="lg">Large Button</WButton>
     </WCol>
 </WRow>
+</div>
 
 ```vue
 <Row>
@@ -70,7 +72,7 @@ The variant prop adds the Bootstrap v5 class .btn-<code>variant</code> on the re
 
 `primary`, `secondary`, `success`, `danger`, `warning`, `info`, `light` , `dark`
 
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <WButton variant="primary">Primary</WButton>
     <WButton variant="secondary">Secondary</WButton>
     <WButton variant="success">Success</WButton>
@@ -96,7 +98,7 @@ The variant prop adds the Bootstrap v5 class .btn-<code>variant</code> on the re
 
 Use Property `outline` to apply outlined color variants.
 
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <WButton outline variant="primary">Primary</WButton>
     <WButton outline variant="secondary">Secondary</WButton>
     <WButton outline variant="success">Success</WButton>
@@ -122,7 +124,9 @@ Use Property `outline` to apply outlined color variants.
 
 Block Level button is a full width button of its container. Use prop `block` to make a block/full width button.
 
+<div class="bootstrap">
 <WButton block variant="primary">Block Level Button</WButton>
+</div>
 
 ```vue
 <Button block variant="primary">Block Level Button</Button>
@@ -132,7 +136,7 @@ Block Level button is a full width button of its container. Use prop `block` to 
 
 Prefer buttons with a more rounded-pill style? Just set the prop pill to `true`.
 
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <WButton pill>Button</WButton>
     <WButton pill variant="primary">Button</WButton>
     <WButton pill variant="outline-secondary">Button</WButton>
@@ -154,7 +158,7 @@ Prefer buttons with a more rounded-pill style? Just set the prop pill to `true`.
 
 Prefer buttons with a more square corner style? Just set the prop squared to `true`.
 
-<div class="child-m-2">
+<div class="child-m-2 bootstrap">
     <WButton squared>Button</WButton>
     <WButton squared variant="primary">Button</WButton>
     <WButton squared variant="outline-secondary">Button</WButton>
@@ -210,7 +214,7 @@ The pressed prop can be set to one of three values:
 export default {
     data(){
         return {
-componentReference: {
+            componentReference: {
                 header: [
                     "Property",
                     "Type",
@@ -300,7 +304,7 @@ componentReference: {
 }
 </script>
 <style>
-.child-m-2 > button {
-    margin: 2px;
+.child-m-2  button {
+    margin: 2px !important;
 }
 </style>

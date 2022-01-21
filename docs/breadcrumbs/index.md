@@ -3,10 +3,11 @@
 Indicate the current page's location within a navigational hierarchy. Separators are automatically added in CSS
 through `::before` and `content`.
 
+<div class="bootstrap">
 <WBreadcrumb :items="items1"/>
+</div>
 
 ```vue
-
 <Breadcrumb :items="[
   {
     text: 'Home',
@@ -51,6 +52,7 @@ const items = [
 You may also manually place individual `<BreadcrumbItem>` child components in the default slot of the `<Breadcrumb>`
 component, as an alternative to using the items prop, for greater control over the content of each item:
 
+<div class="bootstrap">
 <WBreadcrumb>
     <WBreadcrumbItem href="#home">
         <WIcon icon="house-fill" scale="1.25" shift-v="1.25" aria-hidden="true"></WIcon>
@@ -60,6 +62,7 @@ component, as an alternative to using the items prop, for greater control over t
     <WBreadcrumbItem href="#bar">Bar</WBreadcrumbItem>
     <WBreadcrumbItem active>Baz</WBreadcrumbItem>
 </WBreadcrumb>
+</div>
 
 ```vue
 <Breadcrumb>

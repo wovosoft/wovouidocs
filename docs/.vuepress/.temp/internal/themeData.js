@@ -1,7 +1,12 @@
 export const themeData = {
   "logo": "https://vuejs.org/images/logo.png",
   "repo": "https://github.com/wovosoft/wovouidocs",
+  "docsDir": "docs",
+  "docsBranch": "master",
+  "editLink": true,
+  "mainRepoBranch": "master",
   "sidebar": [
+    "/getting-started/",
     "/alerts/",
     "/badges/",
     "/breadcrumbs/",
@@ -10,20 +15,33 @@ export const themeData = {
     "/buttons/toolbars/",
     "/cards/",
     "/dropdowns/",
-    "/form/",
-    "/form/input/"
+    {
+      "text": "Form",
+      "link": "/form/",
+      "collapsible": true,
+      "children": [
+        "/form/checkbox",
+        "/form/input",
+        "/form/radio/",
+        "/form/rating/"
+      ]
+    }
+  ],
+  "navbar": [
+    {
+      "text": "WovoSoft",
+      "link": "https://wovosoft.com"
+    }
   ],
   "locales": {
     "/": {
       "selectLanguageName": "English"
     }
   },
-  "navbar": [],
   "darkMode": true,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebarDepth": 2,
-  "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdated": true,
   "lastUpdatedText": "Last Updated",
@@ -39,4 +57,17 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

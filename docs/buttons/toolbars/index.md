@@ -4,6 +4,7 @@ Group a series of button-groups and/or input-groups together on a single line, w
 
 **Example 1:** with button groups & Keyboard navigation
 
+<div class="bootstrap">
 <WButtonToolbar key-nav aria-label="Toolbar with button groups">
     <WButtonGroup class="mx-1">
         <WButton>&laquo;</WButton>
@@ -19,6 +20,7 @@ Group a series of button-groups and/or input-groups together on a single line, w
         <WButton>&raquo;</WButton>
     </WButtonGroup>
 </WButtonToolbar>
+</div>
 
 ```vue
 <ButtonToolbar key-nav aria-label="Toolbar with button groups">
@@ -40,6 +42,7 @@ Group a series of button-groups and/or input-groups together on a single line, w
 
 **Example 2:** with mixture of small button group and small input group
 
+<div class="bootstrap">
 <WButtonToolbar aria-label="Toolbar with button groups and input groups">
     <WButtonGroup size="sm" class="me-1">
         <WButton>Save</WButton>
@@ -49,7 +52,7 @@ Group a series of button-groups and/or input-groups together on a single line, w
         <WInput value="100" class="text-right"/>
     </WInputGroup>
 </WButtonToolbar>
-
+</div>
 
 ```vue
 <ButtonToolbar aria-label="Toolbar with button groups and input groups">
@@ -65,6 +68,7 @@ Group a series of button-groups and/or input-groups together on a single line, w
 
 **Example 3:** with button groups and dropdown menu
 
+<div class="bootstrap">
 <WButtonToolbar aria-label="Toolbar with button groups and dropdown menu">
     <WButtonGroup class="mx-1">
         <WButton>New</WButton>
@@ -81,6 +85,7 @@ Group a series of button-groups and/or input-groups together on a single line, w
         <WButton>Cancel</WButton>
     </WButtonGroup>
 </WButtonToolbar>
+</div>
 
 ```vue
 <ButtonToolbar aria-label="Toolbar with button groups and dropdown menu">

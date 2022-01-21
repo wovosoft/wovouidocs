@@ -19,8 +19,18 @@ export const pagesComponents = {
   "v-2394e1a6": defineAsyncComponent(() => import(/* webpackChunkName: "v-2394e1a6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/index.html.vue")),
   // path: /dropdowns/input.html
   "v-d02a7d16": defineAsyncComponent(() => import(/* webpackChunkName: "v-d02a7d16" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/input.html.vue")),
-  // path: /Form/
-  "v-12d19c72": defineAsyncComponent(() => import(/* webpackChunkName: "v-12d19c72" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/Form/index.html.vue")),
+  // path: /form/checkbox.html
+  "v-2643f7a4": defineAsyncComponent(() => import(/* webpackChunkName: "v-2643f7a4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/checkbox.html.vue")),
+  // path: /form/
+  "v-14948c92": defineAsyncComponent(() => import(/* webpackChunkName: "v-14948c92" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/index.html.vue")),
+  // path: /form/input.html
+  "v-909a953e": defineAsyncComponent(() => import(/* webpackChunkName: "v-909a953e" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/input.html.vue")),
+  // path: /form/radio.html
+  "v-64ecefd0": defineAsyncComponent(() => import(/* webpackChunkName: "v-64ecefd0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/radio.html.vue")),
+  // path: /form/rating.html
+  "v-b3c164ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-b3c164ec" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/rating.html.vue")),
+  // path: /getting-started/
+  "v-ccdc4da0": defineAsyncComponent(() => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.vue")),
   // path: /buttons/toolbars/
   "v-01e68820": defineAsyncComponent(() => import(/* webpackChunkName: "v-01e68820" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/buttons/toolbars/index.html.vue")),
   // path: /404.html
