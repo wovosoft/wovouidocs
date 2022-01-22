@@ -1,7 +1,17 @@
 {
-  "hash": "e83e9641",
-  "browserHash": "b0551003",
+  "hash": "de8ceb98",
+  "browserHash": "993f8ac0",
   "optimized": {
+    "@wovosoft/wovoui-icons": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@wovosoft_wovoui-icons.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@wovosoft/wovoui-icons/dist/index.es.js",
+      "needsInterop": false
+    },
+    "@wovosoft/wovoui": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@wovosoft_wovoui.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@wovosoft/wovoui/dist/index.es.js",
+      "needsInterop": false
+    },
     "vue": {
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/vue.js",
       "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",

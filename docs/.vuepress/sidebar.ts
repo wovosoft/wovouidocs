@@ -18,5 +18,6 @@ export default [
             "/form/radio/",
             "/form/rating/",
         ]
-    }
+    },
+    '/icons/',
 ]

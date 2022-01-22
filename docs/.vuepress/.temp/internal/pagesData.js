@@ -29,6 +29,8 @@ export const pagesData = {
   "v-b3c164ec": () => import(/* webpackChunkName: "v-b3c164ec" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/rating.html.js").then(({ data }) => data),
   // path: /getting-started/
   "v-ccdc4da0": () => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.js").then(({ data }) => data),
+  // path: /icons/
+  "v-fb1db6e4": () => import(/* webpackChunkName: "v-fb1db6e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/icons/index.html.js").then(({ data }) => data),
   // path: /buttons/toolbars/
   "v-01e68820": () => import(/* webpackChunkName: "v-01e68820" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/buttons/toolbars/index.html.js").then(({ data }) => data),
   // path: /404.html

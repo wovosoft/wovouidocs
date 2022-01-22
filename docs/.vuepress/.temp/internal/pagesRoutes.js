@@ -16,6 +16,7 @@ const routeItems = [
   ["v-64ecefd0","/form/radio.html",{"title":"Form Radio"},["/form/radio","/form/radio.md"]],
   ["v-b3c164ec","/form/rating.html",{"title":"Form Rating"},["/form/rating","/form/rating.md"]],
   ["v-ccdc4da0","/getting-started/",{"title":"Getting Started"},["/getting-started/index.html","/getting-started/index.md"]],
+  ["v-fb1db6e4","/icons/",{"title":"Bootstrap Icons"},["/icons/index.html","/icons/index.md"]],
   ["v-01e68820","/buttons/toolbars/",{"title":"Button Toolbar"},["/buttons/toolbars/index.html","/buttons/toolbars/index.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
