@@ -13,6 +13,8 @@ export const pagesComponents = {
   "v-62839e5e": defineAsyncComponent(() => import(/* webpackChunkName: "v-62839e5e" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/buttons/groups.html.vue")),
   // path: /buttons/
   "v-d6c3ca72": defineAsyncComponent(() => import(/* webpackChunkName: "v-d6c3ca72" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/buttons/index.html.vue")),
+  // path: /calendar/
+  "v-96167c50": defineAsyncComponent(() => import(/* webpackChunkName: "v-96167c50" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/calendar/index.html.vue")),
   // path: /cards/
   "v-78191965": defineAsyncComponent(() => import(/* webpackChunkName: "v-78191965" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/cards/index.html.vue")),
   // path: /dropdowns/

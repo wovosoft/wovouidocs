@@ -8,6 +8,12 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "Getting Started",
+      "slug": "getting-started",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "Installation",
       "slug": "installation",
       "children": [
@@ -39,8 +45,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1642861622000,
+    "contributors": [
+      {
+        "name": "Narayan Adhikary",
+        "email": "wovosoft@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "icons/index.md"
 }

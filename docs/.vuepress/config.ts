@@ -14,7 +14,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     theme: path.resolve(__dirname, './theme/lib/node/index.js'),
     // theme: '@vuepress/theme-default',
     themeConfig: {
-        logo: 'https://vuejs.org/images/logo.png',
+        logo: '/wovoui.png',
         repo: 'https://github.com/wovosoft/wovouidocs',
         docsDir:"docs",
         docsBranch:"master",
@@ -23,6 +23,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         sidebar,
         navbar: [
             // NavbarItem
+            {
+                text: 'Icons',
+                link: '/icons',
+            },
             {
                 text: 'WovoSoft',
                 link: 'https://wovosoft.com',

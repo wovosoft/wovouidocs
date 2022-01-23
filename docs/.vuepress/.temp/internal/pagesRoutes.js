@@ -7,6 +7,7 @@ const routeItems = [
   ["v-76a6e250","/breadcrumbs/",{"title":"Breadcrumbs"},["/breadcrumbs/index.html","/breadcrumbs/index.md"]],
   ["v-62839e5e","/buttons/groups.html",{"title":"Button Groups"},["/buttons/groups","/buttons/groups.md"]],
   ["v-d6c3ca72","/buttons/",{"title":"Buttons"},["/buttons/index.html","/buttons/index.md"]],
+  ["v-96167c50","/calendar/",{"title":"Calendar"},["/calendar/index.html","/calendar/index.md"]],
   ["v-78191965","/cards/",{"title":"Cards"},["/cards/index.html","/cards/index.md"]],
   ["v-2394e1a6","/dropdowns/",{"title":"Dropdown"},["/dropdowns/index.html","/dropdowns/index.md"]],
   ["v-d02a7d16","/dropdowns/input.html",{"title":"Form Input"},["/dropdowns/input","/dropdowns/input.md"]],

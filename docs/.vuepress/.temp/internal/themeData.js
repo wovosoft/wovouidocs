@@ -1,5 +1,5 @@
 export const themeData = {
-  "logo": "https://vuejs.org/images/logo.png",
+  "logo": "/wovoui.png",
   "repo": "https://github.com/wovosoft/wovouidocs",
   "docsDir": "docs",
   "docsBranch": "master",
@@ -13,6 +13,7 @@ export const themeData = {
     "/buttons/",
     "/buttons/groups/",
     "/buttons/toolbars/",
+    "/calendar/",
     "/cards/",
     "/dropdowns/",
     {
@@ -29,6 +30,10 @@ export const themeData = {
     "/icons/"
   ],
   "navbar": [
+    {
+      "text": "Icons",
+      "link": "/icons"
+    },
     {
       "text": "WovoSoft",
       "link": "https://wovosoft.com"
