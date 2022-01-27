@@ -6,6 +6,7 @@ export default [
     '/buttons/',
     '/buttons/groups/',
     '/buttons/toolbars/',
+    '/carousel/',
     '/calendar/',
     '/cards/',
     '/dropdowns/',

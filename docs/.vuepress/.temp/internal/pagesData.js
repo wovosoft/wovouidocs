@@ -15,6 +15,8 @@ export const pagesData = {
   "v-96167c50": () => import(/* webpackChunkName: "v-96167c50" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/calendar/index.html.js").then(({ data }) => data),
   // path: /cards/
   "v-78191965": () => import(/* webpackChunkName: "v-78191965" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/cards/index.html.js").then(({ data }) => data),
+  // path: /carousel/
+  "v-03d41ff6": () => import(/* webpackChunkName: "v-03d41ff6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/carousel/index.html.js").then(({ data }) => data),
   // path: /dropdowns/
   "v-2394e1a6": () => import(/* webpackChunkName: "v-2394e1a6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/index.html.js").then(({ data }) => data),
   // path: /dropdowns/input.html
