@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="wovouidocs" />
+    <orderEntry type="module" module-name="wovoui" />
   </component>
 </module>

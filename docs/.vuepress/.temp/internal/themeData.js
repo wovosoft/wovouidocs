@@ -14,6 +14,7 @@ export const themeData = {
     "/buttons/groups/",
     "/buttons/toolbars/",
     "/carousel/",
+    "/collapse/",
     "/calendar/",
     "/cards/",
     "/dropdowns/",
@@ -25,7 +26,8 @@ export const themeData = {
         "/form/checkbox",
         "/form/input",
         "/form/radio/",
-        "/form/rating/"
+        "/form/rating/",
+        "/form/select/"
       ]
     },
     "/icons/"

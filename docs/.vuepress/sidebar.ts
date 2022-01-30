@@ -7,6 +7,7 @@ export default [
     '/buttons/groups/',
     '/buttons/toolbars/',
     '/carousel/',
+    '/collapse/',
     '/calendar/',
     '/cards/',
     '/dropdowns/',
@@ -19,6 +20,7 @@ export default [
             "/form/input",
             "/form/radio/",
             "/form/rating/",
+            "/form/select/",
         ]
     },
     '/icons/',
