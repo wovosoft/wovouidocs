@@ -27,6 +27,8 @@ export const pagesComponents = {
   "v-d02a7d16": defineAsyncComponent(() => import(/* webpackChunkName: "v-d02a7d16" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/input.html.vue")),
   // path: /form/checkbox.html
   "v-2643f7a4": defineAsyncComponent(() => import(/* webpackChunkName: "v-2643f7a4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/checkbox.html.vue")),
+  // path: /form/group.html
+  "v-9d060068": defineAsyncComponent(() => import(/* webpackChunkName: "v-9d060068" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/group.html.vue")),
   // path: /form/
   "v-14948c92": defineAsyncComponent(() => import(/* webpackChunkName: "v-14948c92" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/index.html.vue")),
   // path: /form/input.html
@@ -37,6 +39,10 @@ export const pagesComponents = {
   "v-b3c164ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-b3c164ec" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/rating.html.vue")),
   // path: /form/select.html
   "v-ca67e4ea": defineAsyncComponent(() => import(/* webpackChunkName: "v-ca67e4ea" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/select.html.vue")),
+  // path: /form/spinbutton.html
+  "v-0087f093": defineAsyncComponent(() => import(/* webpackChunkName: "v-0087f093" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/spinbutton.html.vue")),
+  // path: /form/tags.html
+  "v-2ecfa7e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-2ecfa7e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/tags.html.vue")),
   // path: /getting-started/
   "v-ccdc4da0": defineAsyncComponent(() => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.vue")),
   // path: /icons/

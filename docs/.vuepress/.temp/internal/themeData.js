@@ -24,10 +24,13 @@ export const themeData = {
       "collapsible": true,
       "children": [
         "/form/checkbox",
+        "/form/group/",
         "/form/input",
         "/form/radio/",
         "/form/rating/",
-        "/form/select/"
+        "/form/select/",
+        "/form/spinbutton/",
+        "/form/tags/"
       ]
     },
     "/icons/"

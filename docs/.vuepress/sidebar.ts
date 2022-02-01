@@ -21,7 +21,10 @@ export default [
             "/form/radio/",
             "/form/rating/",
             "/form/select/",
-        ]
+            "/form/group/",
+            "/form/spinbutton/",
+            "/form/tags/",
+        ].sort()
     },
     '/icons/',
 ]

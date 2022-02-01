@@ -25,6 +25,8 @@ export const pagesData = {
   "v-d02a7d16": () => import(/* webpackChunkName: "v-d02a7d16" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/input.html.js").then(({ data }) => data),
   // path: /form/checkbox.html
   "v-2643f7a4": () => import(/* webpackChunkName: "v-2643f7a4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/checkbox.html.js").then(({ data }) => data),
+  // path: /form/group.html
+  "v-9d060068": () => import(/* webpackChunkName: "v-9d060068" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/group.html.js").then(({ data }) => data),
   // path: /form/
   "v-14948c92": () => import(/* webpackChunkName: "v-14948c92" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/index.html.js").then(({ data }) => data),
   // path: /form/input.html
@@ -35,6 +37,10 @@ export const pagesData = {
   "v-b3c164ec": () => import(/* webpackChunkName: "v-b3c164ec" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/rating.html.js").then(({ data }) => data),
   // path: /form/select.html
   "v-ca67e4ea": () => import(/* webpackChunkName: "v-ca67e4ea" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/select.html.js").then(({ data }) => data),
+  // path: /form/spinbutton.html
+  "v-0087f093": () => import(/* webpackChunkName: "v-0087f093" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/spinbutton.html.js").then(({ data }) => data),
+  // path: /form/tags.html
+  "v-2ecfa7e4": () => import(/* webpackChunkName: "v-2ecfa7e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/tags.html.js").then(({ data }) => data),
   // path: /getting-started/
   "v-ccdc4da0": () => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.js").then(({ data }) => data),
   // path: /icons/

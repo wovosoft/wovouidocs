@@ -29,16 +29,16 @@ import {
   withCtx,
   withDirectives,
   withModifiers
-} from "./chunk-K4UNDIP3.js";
+} from "./chunk-TT3FDCBS.js";
 import {
   normalizeClass,
   normalizeProps,
   normalizeStyle,
   toDisplayString
-} from "./chunk-YV7C26G7.js";
+} from "./chunk-3EXAKJ6Z.js";
 import {
   init_define_MZ_ZOOM_OPTIONS
-} from "./chunk-FCVWRIDD.js";
+} from "./chunk-5M5A5PH4.js";
 
 // dep:@wovosoft_wovoui
 init_define_MZ_ZOOM_OPTIONS();
@@ -6745,13 +6745,7 @@ var isObject$7 = (obj) => typeof obj === "object" && !Array.isArray(obj);
 var title = (str) => lodash.exports.startCase(lodash.exports.toLower(str));
 var _sfc_main$Y = {
   name: "Collapse",
-  components: { Button },
   props: {
-    toggleText: {
-      default: null
-    },
-    toggleClass: make([Array, String], null),
-    toggleVariant: makeString("secondary"),
     modelValue: makeBoolean(false),
     visible: makeBoolean(false),
     class: make([Array, String], null),
@@ -6812,31 +6806,14 @@ var _sfc_main$Y = {
 };
 var _hoisted_1$k = ["id"];
 function _sfc_render$Y(_ctx, _cache, $props, $setup, $data, $options) {
-  const _component_Button = resolveComponent("Button");
-  return openBlock(), createElementBlock(Fragment, null, [
-    _ctx.$slots.toggleText || $props.toggleText ? (openBlock(), createBlock(_component_Button, {
-      key: 0,
-      ref: "toggle",
-      variant: $props.toggleVariant,
-      "aria-expanded": $setup.shown,
-      onClick: _cache[0] || (_cache[0] = ($event) => $setup.updateState(!$setup.shown))
-    }, {
-      default: withCtx(() => [
-        renderSlot(_ctx.$slots, "toggleText", {}, () => [
-          createTextVNode(toDisplayString($props.toggleText), 1)
-        ])
-      ]),
-      _: 3
-    }, 8, ["variant", "aria-expanded"])) : createCommentVNode("", true),
-    createBaseVNode("div", {
-      class: normalizeClass($setup.classes),
-      ref: "collapse",
-      id: $props.id,
-      onTransitionend: _cache[1] || (_cache[1] = withModifiers(($event) => $setup.collapseTransitionEnd($event, $setup.shown, "height"), ["self"]))
-    }, [
-      renderSlot(_ctx.$slots, "default")
-    ], 42, _hoisted_1$k)
-  ], 64);
+  return openBlock(), createElementBlock("div", {
+    class: normalizeClass($setup.classes),
+    ref: "collapse",
+    id: $props.id,
+    onTransitionend: _cache[0] || (_cache[0] = withModifiers(($event) => $setup.collapseTransitionEnd($event, $setup.shown, "height"), ["self"]))
+  }, [
+    renderSlot(_ctx.$slots, "default")
+  ], 42, _hoisted_1$k);
 }
 var Collapse = _export_sfc$1(_sfc_main$Y, [["render", _sfc_render$Y]]);
 var _sfc_main$X = {
@@ -14958,6 +14935,7 @@ function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
 var CarouselControl = _export_sfc$1(_sfc_main$1, [["render", _sfc_render$1]]);
 var _sfc_main = {
   name: "CarouselItem",
+  emits: ["slidingStart", "slidingEnd"],
   props: {
     tag: makeString("div"),
     active: makeBoolean(false),
@@ -14983,6 +14961,7 @@ var _sfc_main = {
   },
   methods: {
     transitionEnd() {
+      this.$emit("slidingEnd", this);
       this.$el.classList.remove("carousel-item-start", "carousel-item-end");
       this.$el.classList.remove("carousel-item-next", "carousel-item-prev");
       if (this.visible) {
@@ -14994,6 +14973,7 @@ var _sfc_main = {
   },
   watch: {
     visible(value) {
+      this.$emit("slidingStart", this);
       if (value) {
         this.$el.classList.add("carousel-item-" + (this.direction === "start" ? "next" : "prev"));
       }

@@ -1,11 +1,5 @@
-//.page .bootstrap {
-//  @import "@wovosoft/wovoui/dist/style.css";
-//  @import "bootstrap/scss/bootstrap";
-//}
-.page {
-  @import "@wovosoft/wovoui/dist/style.css";
-  @import "bootstrap/scss/bootstrap";
-}
+@import "bootstrap/scss/bootstrap";
+@import "@wovosoft/wovoui/dist/style.css";
 
 .child-m-2 {
   button {
