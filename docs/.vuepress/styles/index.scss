@@ -1,5 +1,5 @@
-@import "bootstrap/scss/bootstrap";
-@import "@wovosoft/wovoui/dist/style.css";
+@import "bootstrap/scss/bootstrap.scss";
+//@import "@wovosoft/wovoui/dist/style.css";
 
 .child-m-2 {
   button {
@@ -7,3 +7,30 @@
   }
 }
 
+:root {
+  --content-width: 1200px;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 0.85em !important;
+  font-family: var(--font-family-code) !important;
+  line-height: 1.58 !important;
+}
+
+
+code {
+  background: transparent;
+  padding: 0;
+}
+
+h2.accordion-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.theme-default-content {
+  h2 {
+    border-bottom: 0;
+  }
+}

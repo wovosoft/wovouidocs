@@ -7,6 +7,7 @@ export const themeData = {
   "mainRepoBranch": "master",
   "sidebar": [
     "/getting-started/",
+    "/accordion/",
     "/alerts/",
     "/badges/",
     "/breadcrumbs/",
@@ -33,6 +34,7 @@ export const themeData = {
         "/form/tags/"
       ]
     },
+    "/list-group/",
     "/icons/"
   ],
   "navbar": [

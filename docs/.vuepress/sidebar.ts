@@ -1,5 +1,6 @@
 export default [
     '/getting-started/',
+    '/accordion/',
     '/alerts/',
     '/badges/',
     '/breadcrumbs/',
@@ -26,5 +27,6 @@ export default [
             "/form/tags/",
         ].sort()
     },
+    '/list-group/',
     '/icons/',
 ]

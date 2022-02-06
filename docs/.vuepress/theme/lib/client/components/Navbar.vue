@@ -59,6 +59,7 @@ function getCssValue(el: HTMLElement | null, property: string): number {
 
 <template>
     <header ref="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <ToggleDarkModeButton v-if="enableDarkMode"/>
         <div class="container">
             <ToggleSidebarButton class="navbar-toggler" @toggle="$emit('toggle-sidebar')"/>
 
@@ -66,7 +67,7 @@ function getCssValue(el: HTMLElement | null, property: string): number {
                 <NavbarBrand class="navbar-brand"/>
             </div>
 
-            <div class="navbar-items-wrapper collapse navbar-collapse" :style="linksWrapperStyle">
+            <div class="navbar-items-wrapper" :style="linksWrapperStyle">
                 <slot name="before"/>
                 <NavbarItems class="can-hide"/>
                 <slot name="after"/>

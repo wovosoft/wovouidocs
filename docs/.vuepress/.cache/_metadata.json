@@ -1,6 +1,6 @@
 {
-  "hash": "2781af46",
-  "browserHash": "166ab24e",
+  "hash": "07a66d07",
+  "browserHash": "6bce6884",
   "optimized": {
     "highlight.js/lib/core": {
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/highlight_js_lib_core.js",
@@ -57,14 +57,14 @@
       "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "needsInterop": false
     },
-    "@wovosoft/wovoui-icons": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@wovosoft_wovoui-icons.js",
-      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@wovosoft/wovoui-icons/dist/index.es.js",
-      "needsInterop": false
-    },
     "@vueuse/core": {
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@vueuse_core.js",
       "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "@wovosoft/wovoui-icons": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@wovosoft_wovoui-icons.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@wovosoft/wovoui-icons/dist/index.es.js",
       "needsInterop": false
     },
     "lodash/kebabCase": {
