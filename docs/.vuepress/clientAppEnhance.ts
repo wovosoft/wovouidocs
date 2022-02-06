@@ -14,5 +14,3 @@ export default defineClientAppEnhance(async ({app, router, siteData}) => {
         app.component('Icon' + icon[0], icon[1]);
     }
 });
-
-//This is Test Development Branch
