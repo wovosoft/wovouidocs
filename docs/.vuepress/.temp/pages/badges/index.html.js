@@ -8,14 +8,26 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "In Buttons",
-      "slug": "in-buttons",
+      "title": "Examples",
+      "slug": "examples",
       "children": []
     },
     {
       "level": 2,
-      "title": "Contextual variations",
-      "slug": "contextual-variations",
+      "title": "Buttons",
+      "slug": "buttons",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Positioned",
+      "slug": "positioned",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Background colors",
+      "slug": "background-colors",
       "children": []
     },
     {

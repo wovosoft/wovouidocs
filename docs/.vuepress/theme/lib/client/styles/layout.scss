@@ -1,5 +1,6 @@
 @import 'mixins';
 @import 'variables';
+@import "bootstrap/scss/bootstrap.scss";
 
 .page {
   padding-top: var(--navbar-height);

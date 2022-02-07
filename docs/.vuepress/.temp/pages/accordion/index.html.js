@@ -38,8 +38,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1644158250000,
+    "contributors": [
+      {
+        "name": "Narayan Adhikary",
+        "email": "wovosoft@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "accordion/index.md"
 }
