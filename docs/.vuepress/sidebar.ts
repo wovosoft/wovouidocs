@@ -7,10 +7,10 @@ export default [
     '/buttons/',
     '/buttons/groups/',
     '/buttons/toolbars/',
+    '/cards/',
     '/carousel/',
     '/collapse/',
     '/calendar/',
-    '/cards/',
     '/dropdowns/',
     {
         text: 'Form',

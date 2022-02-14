@@ -24,7 +24,8 @@ Some quick example text to build on the card title and make up the bulk of the c
 <WButton href="#" variant="primary">Go somewhere</WButton>
 </WCard>
 </div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span>
     <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Card Title<span class="token punctuation">"</span></span>
     <span class="token attr-name">img-src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://picsum.photos/600/300/?image=25<span class="token punctuation">"</span></span>
     <span class="token attr-name">img-alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Image<span class="token punctuation">"</span></span>
@@ -37,7 +38,7 @@ Some quick example text to build on the card title and make up the bulk of the c
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>CardText</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Go somewhere<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h2 id="content-types" tabindex="-1"><a class="header-anchor" href="#content-types" aria-hidden="true">#</a> Content types</h2>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h2 id="content-types" tabindex="-1"><a class="header-anchor" href="#content-types" aria-hidden="true">#</a> Content types</h2>
 <p>Cards support a wide variety of content, including images, text, list groups, links and more. The following are examples
 of what's supported inside a <code>&lt;Card&gt;</code></p>
 <h2 id="card-body" tabindex="-1"><a class="header-anchor" href="#card-body" aria-hidden="true">#</a> Card body</h2>
@@ -45,7 +46,6 @@ of what's supported inside a <code>&lt;Card&gt;</code></p>
 section within a card.</p>
 <p>By default the <code>&lt;Card&gt;</code> content is automatically placed in a <code>&lt;CardBody&gt;</code>
 section:</p>
-<div class="bootstrap">
 <WCard class="text-center mb-3">
     <div class="bg-secondary text-light">
         This is some content within the default <code>&lt;CardBody&gt;</code> block of the
@@ -53,22 +53,20 @@ section:</p>
         gray <samp>&lt;div&gt;</samp>.
     </div>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">no-body</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">no-body</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-secondary text-light<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     This is some content without the default <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>samp</span><span class="token punctuation">></span></span><span class="token entity named-entity" title="&lt;">&amp;lt;</span>CardBody<span class="token entity named-entity" title="&gt;">&amp;gt;</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>samp</span><span class="token punctuation">></span></span> section. Notice the
     lack of padding between the card's border and this gray <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>samp</span><span class="token punctuation">></span></span><span class="token entity named-entity" title="&lt;">&amp;lt;</span>div<span class="token entity named-entity" title="&gt;">&amp;gt;</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>samp</span><span class="token punctuation">></span></span>.
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>Disable the automatic <code>&lt;CardBody&gt;</code> section (and associated padding) by setting the prop no-body on the <code>&lt;Card&gt;</code>.</p>
-<div class="bootstrap">
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>Disable the automatic <code>&lt;CardBody&gt;</code> section (and associated padding) by setting the prop no-body on the <code>&lt;Card&gt;</code>.</p>
 <WCard no-body class="text-center">
     <div class="bg-secondary text-light">
         This is some content without the default `CardBody` section. Notice the
         lack of padding between the card's border and this gray <samp>&lt;div&gt;</samp>.
     </div>
 </WCard>
-</div>
 <p>Note that with <code>no-body</code> enabled, the content of the
 <code>title</code> and <code>sub-title</code> props will not be rendered.</p>
 <p>Use the <code>&lt;CardBody&gt;</code> sub-component to place your own card body anywhere in a
@@ -82,7 +80,6 @@ in the card body will have its bottom margin automatically removed (via CSS). Te
 <code>&lt;CardText&gt;</code> can also be styled with the standard HTML tags.</p>
 <p>Links can be added and placed next to each other by adding the .card-link class to a <code>&lt;a&gt;</code>
 tag (or <code>&lt;Link&gt;</code> component).</p>
-<div class="bootstrap">
 <WCard title="Card title" sub-title="Card subtitle" class="mb-3">
 <WCardText>
     Some quick example text to build on the <em>card title</em> and make up the bulk of the card's
@@ -94,8 +91,8 @@ A second paragraph of text in the card.
 <a href="#" class="card-link">Card link</a>
 <WLink href="#" class="card-link">Another link</WLink>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Card title<span class="token punctuation">"</span></span> <span class="token attr-name">sub-title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Card subtitle<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mb-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Card title<span class="token punctuation">"</span></span> <span class="token attr-name">sub-title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Card subtitle<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mb-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardText</span><span class="token punctuation">></span></span>
     Some quick example text to build on the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">></span></span>card title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">></span></span> and make up the bulk of the card's
     content.
@@ -104,13 +101,12 @@ A second paragraph of text in the card.
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-link<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Card link<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-link<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Another link<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Link</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="images" tabindex="-1"><a class="header-anchor" href="#images" aria-hidden="true">#</a> Images</h2>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="images" tabindex="-1"><a class="header-anchor" href="#images" aria-hidden="true">#</a> Images</h2>
 <p>The <code>&lt;Card&gt;</code> prop <code>img-src</code> places an image on the top of the card, and use the
 <code>img-alt</code> prop to specify a string to be placed in the image's <code>alt</code> attribute. The image specified by the <code>img-src</code>
 prop will be responsive and will adjust its width when the width of the card is changed.</p>
 <p>Alternatively you can manually place images inside <code>&lt;Card&gt;</code> using the sub-component <code>&lt;CardImg&gt;</code>. See the kitchen sink
 example below for usage.</p>
-<div class="bootstrap">
 <div>
 <h4>Top and Bottom</h4>
 <WCardGroup deck>
@@ -139,8 +135,8 @@ Some quick example text to build on the card and make up the bulk of the card's 
 </WCardText>
 </WCard>
 </div>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h4</span><span class="token punctuation">></span></span>Top and Bottom<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h4</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardGroup</span> <span class="token attr-name">deck</span><span class="token punctuation">></span></span>
@@ -172,7 +168,7 @@ Some quick example text to build on the card and make up the bulk of the card's 
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br></div></div><h2 id="overlay-image" tabindex="-1"><a class="header-anchor" href="#overlay-image" aria-hidden="true">#</a> Overlay image</h2>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br></div></div><h2 id="overlay-image" tabindex="-1"><a class="header-anchor" href="#overlay-image" aria-hidden="true">#</a> Overlay image</h2>
 <p>Place the image in the background of the card by setting the boolean prop <code>overlay</code>:</p>
 <div class="bootstrap">
 <WCard overlay img-src="https://picsum.photos/900/250/?image=3" img-alt="Card Image" text-variant="white" title="Image Overlay" sub-title="Subtitle">
@@ -195,7 +191,6 @@ Some quick example text to build on the card and make up the bulk of the card's 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="list-groups" tabindex="-1"><a class="header-anchor" href="#list-groups" aria-hidden="true">#</a> List groups</h2>
 <p>Create lists of content in a card with a flush list group.</p>
-<div class="bootstrap">
 <WCard style="width: 18rem;" body-class="p-0">
     <WListGroup flush>
         <WListGroupItem>An item</WListGroupItem>
@@ -203,16 +198,15 @@ Some quick example text to build on the card and make up the bulk of the card's 
         <WListGroupItem>A third item</WListGroupItem>
     </WListGroup>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 18rem<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">body-class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 18rem<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">body-class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListGroup</span> <span class="token attr-name">flush</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListGroupItem</span><span class="token punctuation">></span></span>An item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroupItem</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListGroupItem</span><span class="token punctuation">></span></span>A second item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroupItem</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListGroupItem</span><span class="token punctuation">></span></span>A third item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroupItem</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroup</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="bootstrap">
-<WCard style="width: 18rem;" no-body>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><WCard style="width: 18rem;" no-body>
     <WCardHeader>
         Card Header
     </WCardHeader>
@@ -222,8 +216,8 @@ Some quick example text to build on the card and make up the bulk of the card's 
         <WListGroupItem>A third item</WListGroupItem>
     </WListGroup>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 18rem<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">no-body</span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 18rem<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">no-body</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardHeader</span><span class="token punctuation">></span></span>
     Card Header
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>CardHeader</span><span class="token punctuation">></span></span>
@@ -233,8 +227,7 @@ Some quick example text to build on the card and make up the bulk of the card's 
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListGroupItem</span><span class="token punctuation">></span></span>A third item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroupItem</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroup</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><div class="bootstrap">
-<WCard style="width: 18rem;" no-body>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><WCard style="width: 18rem;" no-body>
     <WListGroup flush>
         <WListGroupItem>An item</WListGroupItem>
         <WListGroupItem>A second item</WListGroupItem>
@@ -242,8 +235,8 @@ Some quick example text to build on the card and make up the bulk of the card's 
     </WListGroup>
     <WCardFooter>Card Footer</WCardFooter>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 18rem<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">no-body</span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 18rem<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">no-body</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListGroup</span> <span class="token attr-name">flush</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListGroupItem</span><span class="token punctuation">></span></span>An item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroupItem</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListGroupItem</span><span class="token punctuation">></span></span>A second item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroupItem</span><span class="token punctuation">></span></span>
@@ -251,10 +244,9 @@ Some quick example text to build on the card and make up the bulk of the card's 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ListGroup</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardFooter</span><span class="token punctuation">></span></span>Card Footer<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>CardFooter</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="kitchen-sink" tabindex="-1"><a class="header-anchor" href="#kitchen-sink" aria-hidden="true">#</a> Kitchen sink</h2>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="kitchen-sink" tabindex="-1"><a class="header-anchor" href="#kitchen-sink" aria-hidden="true">#</a> Kitchen sink</h2>
 <p>Mix and match multiple content types to create the card you need, or throw everything in there. Shown below are image
 styles, blocks, text styles, and a list group—all wrapped in a fixed-width card.</p>
-<div class="bootstrap">
 <WCard style="width: 18rem;" no-body>
     <img src="https://placekitten.com/380/200" class="card-img-top" alt="...">
     <WCardBody>
@@ -271,8 +263,8 @@ styles, blocks, text styles, and a list group—all wrapped in a fixed-width car
         <WCardLink href="#">Another link</WCardLink>
     </WCardBody>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 18rem<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">no-body</span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 18rem<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">no-body</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://placekitten.com/380/200<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-img-top<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardBody</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardTitle</span><span class="token punctuation">></span></span>Card title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>CardTitle</span><span class="token punctuation">></span></span>
@@ -289,17 +281,16 @@ styles, blocks, text styles, and a list group—all wrapped in a fixed-width car
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardLink</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Another link<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>CardLink</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>CardBody</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h2 id="header-and-footer" tabindex="-1"><a class="header-anchor" href="#header-and-footer" aria-hidden="true">#</a> Header and footer</h2>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h2 id="header-and-footer" tabindex="-1"><a class="header-anchor" href="#header-and-footer" aria-hidden="true">#</a> Header and footer</h2>
 <p>Add an optional header and/or footer within a card via the <code>header/footer</code> props or named slots. You can control the
 wrapper element tags used by setting the <code>header-tag</code> and <code>footer-tag</code>
 props (both default is <code>div</code>)</p>
-<div class="bootstrap">
 <WCard header="featured" header-tag="header" footer="Card Footer" footer-tag="footer" title="Title">
 <WCardText>Header and footers using props.</WCardText>
 <WButton href="#" variant="primary">Go somewhere</WButton>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span>
     <span class="token attr-name">header</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>featured<span class="token punctuation">"</span></span>
     <span class="token attr-name">header-tag</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>header<span class="token punctuation">"</span></span>
     <span class="token attr-name">footer</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Card Footer<span class="token punctuation">"</span></span>
@@ -308,8 +299,7 @@ props (both default is <code>div</code>)</p>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardText</span><span class="token punctuation">></span></span>Header and footers using props.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>CardText</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Go somewhere<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="bootstrap">
-<WCard title="Title" class="mt-3" header-tag="header" footer-tag="footer">
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><WCard title="Title" class="mt-3" header-tag="header" footer-tag="footer">
     <template #header>
         <h6 class="mb-0">Header Slot</h6>
     </template>
@@ -319,8 +309,8 @@ props (both default is <code>div</code>)</p>
         <em>Footer Slot</em>
     </template>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Title<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-3<span class="token punctuation">"</span></span> <span class="token attr-name">header-tag</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>header<span class="token punctuation">"</span></span> <span class="token attr-name">footer-tag</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Title<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-3<span class="token punctuation">"</span></span> <span class="token attr-name">header-tag</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>header<span class="token punctuation">"</span></span> <span class="token attr-name">footer-tag</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">#header</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h6</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mb-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Header Slot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h6</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
@@ -330,27 +320,24 @@ props (both default is <code>div</code>)</p>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">></span></span>Footer Slot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><div class="bootstrap">
-<WCard header="Quote">
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><WCard header="Quote">
     <blockquote class="blockquote mb-0">
         <p>A well-known quote, contained in a blockquote element.</p>
         <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
     </blockquote>
 </WCard>
-</div>
-<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">header</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Quote<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">header</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Quote<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>blockquote</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blockquote mb-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>A well-known quote, contained in a blockquote element.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blockquote-footer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Someone famous in <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>cite</span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Source Title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Source Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>cite</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>blockquote</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Card</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="bootstrap">
-<WCard class="text-center" header="Featured" footer="2 days ago">
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><WCard class="text-center" header="Featured" footer="2 days ago">
     <WCardTitle class="card-title">Special title treatment</WCardTitle>
     <WCardText class="card-text">With supporting text below as a natural lead-in to additional content.</WCardText>
     <a href="#" class="btn btn-primary">Go somewhere</a>
 </WCard>
-</div>
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Card</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-center<span class="token punctuation">"</span></span> <span class="token attr-name">header</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Featured<span class="token punctuation">"</span></span> <span class="token attr-name">footer</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2 days ago<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CardTitle</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Special title treatment<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>CardTitle</span><span class="token punctuation">></span></span>
@@ -362,7 +349,6 @@ props (both default is <code>div</code>)</p>
 needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
 <h2 id="using-grid-markup" tabindex="-1"><a class="header-anchor" href="#using-grid-markup" aria-hidden="true">#</a> Using grid markup</h2>
 <p>Using the grid, wrap cards in columns and rows as needed.</p>
-<div class="bootstrap">
 <WRow>
     <WCol sm="6">
         <WCard>
@@ -379,7 +365,6 @@ needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
         </WCard>
     </WCol>
 </WRow>
-</div>
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Row</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Col</span> <span class="token attr-name">sm</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>6<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
@@ -617,17 +602,17 @@ are used under the hood to change the appearance of a card. You can directly use
 </WCardGroup>
 </div>
 <div class="mt-3">
-<WCardGroup deck>
-<WCard border-variant="info" header="Info" align="center">
-<WCardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</WCardText>
-</WCard>
-<WCard border-variant="warning" header="Warning" header-bg-variant="transparent" align="center">
-<CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
-</WCard>
-<WCard border-variant="danger" header="Danger" header-border-variant="danger" header-text-variant="danger" align="center">
-<CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
-</WCard>
-</WCardGroup>
+  <WCardGroup deck>
+    <WCard border-variant="info" header="Info" align="center">
+      <WCardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</WCardText>
+    </WCard>
+    <WCard border-variant="warning" header="Warning" header-bg-variant="transparent" align="center">
+      <WCardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</WCardText>
+    </WCard>
+    <WCard border-variant="danger" header="Danger" header-border-variant="danger" header-text-variant="danger" align="center">
+      <WCardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</WCardText>
+    </WCard>
+  </WCardGroup>
 </div>
 <div class="mt-3">
 <WCardGroup deck class="mb-3">

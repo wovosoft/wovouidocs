@@ -14,10 +14,10 @@ export const themeData = {
     "/buttons/",
     "/buttons/groups/",
     "/buttons/toolbars/",
+    "/cards/",
     "/carousel/",
     "/collapse/",
     "/calendar/",
-    "/cards/",
     "/dropdowns/",
     {
       "text": "Form",

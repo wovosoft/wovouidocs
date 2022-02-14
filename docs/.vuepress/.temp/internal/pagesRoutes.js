@@ -25,8 +25,8 @@ const routeItems = [
   ["v-2ecfa7e4","/form/tags.html",{"title":"Form Tags"},["/form/tags","/form/tags.md"]],
   ["v-ccdc4da0","/getting-started/",{"title":"Getting Started"},["/getting-started/index.html","/getting-started/index.md"]],
   ["v-fb1db6e4","/icons/",{"title":"Bootstrap Icons"},["/icons/index.html","/icons/index.md"]],
-  ["v-366a25f4","/list-group/",{"title":"List Group"},["/list-group/index.html","/list-group/index.md"]],
   ["v-01e68820","/buttons/toolbars/",{"title":"Button Toolbar"},["/buttons/toolbars/index.html","/buttons/toolbars/index.md"]],
+  ["v-366a25f4","/list-group/",{"title":"List Group"},["/list-group/index.html","/list-group/index.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
 
