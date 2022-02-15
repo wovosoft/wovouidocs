@@ -41,15 +41,21 @@ export const data = {
       "title": "Sliding Interval",
       "slug": "sliding-interval",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "Dark Variant",
+      "slug": "dark-variant",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1643550905000,
+    "updatedTime": 1644852713000,
     "contributors": [
       {
         "name": "Narayan Adhikary",
         "email": "wovosoft@gmail.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },

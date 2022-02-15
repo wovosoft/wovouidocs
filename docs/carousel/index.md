@@ -232,35 +232,109 @@ Set value `true`  for the prop `fade` to your carousel to animate slides with a 
 </WCarousel>
 
 ```vue
+
 <Carousel :indicators-enabled="true" :fade="true">
-    <CarouselItem :active="true"  class="bg-danger text-white">
-        <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
-            This is Caption 1
-        </div>
-        <CarouselCaption class="d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-        </CarouselCaption>
-    </CarouselItem>
-    <CarouselItem class="bg-info text-white">
-        <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
-            This is Caption 2
-        </div>
-        <CarouselCaption class="d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-        </CarouselCaption>
-    </CarouselItem>
-    <CarouselItem class="bg-warning text-white">
-        <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
-            This is Caption 3
-        </div>
-        <CarouselCaption class="d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-        </CarouselCaption>
-    </CarouselItem>
+<CarouselItem :active="true" class="bg-danger text-white">
+    <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+        This is Caption 1
+    </div>
+    <CarouselCaption class="d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+    </CarouselCaption>
+</CarouselItem>
+<CarouselItem class="bg-info text-white">
+    <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+        This is Caption 2
+    </div>
+    <CarouselCaption class="d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+    </CarouselCaption>
+</CarouselItem>
+<CarouselItem class="bg-warning text-white">
+    <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+        This is Caption 3
+    </div>
+    <CarouselCaption class="d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+    </CarouselCaption>
+</CarouselItem>
 </Carousel>
 ```
 
-##  Sliding Interval
+## Sliding Interval
+
+Set prop `intervals`'s value in seconds to automatically trigger slides navigation. Default is `0`.
+
+Note: This feature has some minor issues when there are multiple 
+
+## Dark Variant
+
+Add prop `dark`'s value to `true` to the `<Carousel>` for darker controls, indicators, and captions. Controls have been
+inverted from their default white fill with the filter CSS property. Captions and controls have additional Sass
+variables that customize the `color` and `background-color`.
+
+<WCarousel :indicators-enabled="true" :dark="true">
+    <WCarouselItem :active="true"  class="bg-danger text-white">
+        <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+            This is Caption 1
+        </div>
+        <WCarouselCaption class="d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+        </WCarouselCaption>
+    </WCarouselItem>
+    <WCarouselItem class="bg-info text-white">
+        <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+            This is Caption 2
+        </div>
+        <WCarouselCaption class="d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+        </WCarouselCaption>
+    </WCarouselItem>
+    <WCarouselItem class="bg-warning text-white">
+        <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+            This is Caption 3
+        </div>
+        <WCarouselCaption class="d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+        </WCarouselCaption>
+    </WCarouselItem>
+</WCarousel>
+
+```vue
+
+<Carousel :indicators-enabled="true" :dark="true">
+<CarouselItem :active="true" class="bg-danger text-white">
+    <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+        This is Caption 1
+    </div>
+    <CarouselCaption class="d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+    </CarouselCaption>
+</CarouselItem>
+<CarouselItem class="bg-info text-white">
+    <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+        This is Caption 2
+    </div>
+    <CarouselCaption class="d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+    </CarouselCaption>
+</CarouselItem>
+<CarouselItem class="bg-warning text-white">
+    <div class="py-5 text-center text-white" style="min-height: 250px;color: white !important;">
+        This is Caption 3
+    </div>
+    <CarouselCaption class="d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+    </CarouselCaption>
+</CarouselItem>
+</Carousel>
+```

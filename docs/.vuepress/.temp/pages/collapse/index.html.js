@@ -8,6 +8,12 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "Horizontal",
+      "slug": "horizontal",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "Initial visibility (start expanded)",
       "slug": "initial-visibility-start-expanded",
       "children": []

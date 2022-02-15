@@ -9,6 +9,7 @@ export default [
     '/buttons/toolbars/',
     '/cards/',
     '/carousel/',
+    '/close-button/',
     '/collapse/',
     '/calendar/',
     '/dropdowns/',
@@ -28,5 +29,7 @@ export default [
         ].sort()
     },
     '/list-group/',
+    '/modals/',
+    '/navs-and-tabs/',
     '/icons/',
 ]

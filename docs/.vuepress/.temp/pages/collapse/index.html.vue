@@ -11,10 +11,10 @@ This panel is hidden by default but revealed when the user activates the relevan
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>collapse1=!collapse1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Toggle Collapse<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Collapse</span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>collapse1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>border p-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-        Some placeholder content for the collapse component.
-        This panel is hidden by default but revealed when the user activates the relevant trigger.
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>border p-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    Some placeholder content for the collapse component.
+    This panel is hidden by default but revealed when the user activates the relevant trigger.
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Collapse</span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
@@ -28,7 +28,19 @@ This panel is hidden by default but revealed when the user activates the relevan
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><h2 id="initial-visibility-start-expanded" tabindex="-1"><a class="header-anchor" href="#initial-visibility-start-expanded" aria-hidden="true">#</a> Initial visibility (start expanded)</h2>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><h2 id="horizontal" tabindex="-1"><a class="header-anchor" href="#horizontal" aria-hidden="true">#</a> Horizontal</h2>
+<p>The collapse plugin also supports horizontal collapsing. Add the prop <code>horizontal</code> to transition the
+width instead of height and set a width on the immediate child element. Feel free to write your own custom Sass, use
+inline styles, or use our <a href="https://getbootstrap.com/docs/5.1/utilities/sizing/" target="_blank" rel="noopener noreferrer">width utilities<ExternalLinkIcon/></a>.</p>
+<p>Note: Working on it. Needs improvements.</p>
+<WButton @click="collapse3=!collapse3">Toggle Collapse</WButton>
+<WCollapse v-model="collapse3" horizontal>
+<div class="border p-3">
+Some placeholder content for the collapse component. 
+This panel is hidden by default but revealed when the user activates the relevant trigger.
+</div>
+</WCollapse>
+<h2 id="initial-visibility-start-expanded" tabindex="-1"><a class="header-anchor" href="#initial-visibility-start-expanded" aria-hidden="true">#</a> Initial visibility (start expanded)</h2>
 <WButton @click="collapse2=!collapse2">Toggle Collapse</WButton>
 <WCollapse v-model="collapse2">
 <div class="border p-3">
@@ -46,6 +58,7 @@ export default {
         return{
             collapse1:ref(false),
             collapse2:ref(true),
+            collapse3:ref(false),
         }
     }
 }

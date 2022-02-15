@@ -16,6 +16,7 @@ export const themeData = {
     "/buttons/toolbars/",
     "/cards/",
     "/carousel/",
+    "/close-button/",
     "/collapse/",
     "/calendar/",
     "/dropdowns/",
@@ -35,6 +36,8 @@ export const themeData = {
       ]
     },
     "/list-group/",
+    "/modals/",
+    "/navs-and-tabs/",
     "/icons/"
   ],
   "navbar": [

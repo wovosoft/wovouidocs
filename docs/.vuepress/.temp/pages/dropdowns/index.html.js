@@ -8,8 +8,32 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "Single button",
+      "slug": "single-button",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "Button content",
       "slug": "button-content",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Split button",
+      "slug": "split-button",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Sizing",
+      "slug": "sizing",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Dark dropdowns",
+      "slug": "dark-dropdowns",
       "children": []
     },
     {
@@ -30,12 +54,6 @@ export const data = {
           "children": []
         }
       ]
-    },
-    {
-      "level": 2,
-      "title": "Sizing",
-      "slug": "sizing",
-      "children": []
     },
     {
       "level": 2,
