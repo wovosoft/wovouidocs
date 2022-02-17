@@ -86,3 +86,190 @@ left-aligned, but you can easily change them to center or right aligned.
     </NavItem>
 </Nav>
 ```
+
+### Right Alignment
+
+<WNav align="right">
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+
+```html
+
+<Nav align="right">
+    <NavItem active>
+        Active
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem disabled>
+        Disabled
+    </NavItem>
+</Nav>
+```
+
+##  Vertical
+
+Set prop `vertical` to `true` to make the `<Nav>` vertical.
+
+<div class="border mt-3">
+<WNav vertical>
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+</div>
+
+```html
+
+<Nav vertical>
+    <NavItem active>
+        Active
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem disabled>
+        Disabled
+    </NavItem>
+</Nav>
+```
+
+## Tabs Menu
+
+Set prop `tabs` to `true` to make Tabs Menu.
+
+<WNav tabs>
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+
+```html
+
+<Nav tabs>
+    <NavItem active>
+        Active
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem disabled>
+        Disabled
+    </NavItem>
+</Nav>
+```
+
+##  Pills
+
+Take that same HTML, but use `pills` prop instead:
+
+<WNav pills>
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+
+```html
+
+<Nav pills>
+    <NavItem active>
+        Active
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem disabled>
+        Disabled
+    </NavItem>
+</Nav>
+```
+
+##  Fill and justify
+
+<WNav pills fill>
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+
+```html
+
+<Nav pills fill>
+    <NavItem active>
+        Active
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem>
+        Link
+    </NavItem>
+    <NavItem disabled>
+        Disabled
+    </NavItem>
+</Nav>
+```
+
+## Justified
+
+Use prop `justified` to make equal width nav items.

@@ -38,6 +38,7 @@ export const themeData = {
     "/list-group/",
     "/modals/",
     "/navs-and-tabs/",
+    "/navbar/",
     "/icons/"
   ],
   "navbar": [

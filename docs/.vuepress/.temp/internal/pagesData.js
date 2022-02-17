@@ -27,8 +27,6 @@ export const pagesData = {
   "v-2394e1a6": () => import(/* webpackChunkName: "v-2394e1a6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/index.html.js").then(({ data }) => data),
   // path: /dropdowns/input.html
   "v-d02a7d16": () => import(/* webpackChunkName: "v-d02a7d16" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/input.html.js").then(({ data }) => data),
-  // path: /getting-started/
-  "v-ccdc4da0": () => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.js").then(({ data }) => data),
   // path: /form/checkbox.html
   "v-2643f7a4": () => import(/* webpackChunkName: "v-2643f7a4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/checkbox.html.js").then(({ data }) => data),
   // path: /form/group.html
@@ -47,12 +45,16 @@ export const pagesData = {
   "v-0087f093": () => import(/* webpackChunkName: "v-0087f093" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/spinbutton.html.js").then(({ data }) => data),
   // path: /form/tags.html
   "v-2ecfa7e4": () => import(/* webpackChunkName: "v-2ecfa7e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/tags.html.js").then(({ data }) => data),
+  // path: /getting-started/
+  "v-ccdc4da0": () => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.js").then(({ data }) => data),
   // path: /icons/
   "v-fb1db6e4": () => import(/* webpackChunkName: "v-fb1db6e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/icons/index.html.js").then(({ data }) => data),
   // path: /list-group/
   "v-366a25f4": () => import(/* webpackChunkName: "v-366a25f4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/list-group/index.html.js").then(({ data }) => data),
   // path: /modals/
   "v-99b4f720": () => import(/* webpackChunkName: "v-99b4f720" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/modals/index.html.js").then(({ data }) => data),
+  // path: /navbar/
+  "v-5db44df4": () => import(/* webpackChunkName: "v-5db44df4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/navbar/index.html.js").then(({ data }) => data),
   // path: /navs-and-tabs/
   "v-5a0fcb52": () => import(/* webpackChunkName: "v-5a0fcb52" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/navs-and-tabs/index.html.js").then(({ data }) => data),
   // path: /buttons/toolbars/

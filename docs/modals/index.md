@@ -296,9 +296,3 @@ always:false,
 'xxl-down':false,
 });
 </script>
-
-<style>
-[class^="col"]{
-    border:1px solid gray;
-}
-</style>

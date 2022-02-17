@@ -68,10 +68,18 @@
     a:before {
       content: '←';
     }
+
+    a {
+      text-decoration: none;
+    }
   }
 
   .next {
     float: right;
+
+    a {
+      text-decoration: none;
+    }
 
     a:after {
       content: '→';

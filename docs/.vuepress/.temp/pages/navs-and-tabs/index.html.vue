@@ -72,4 +72,161 @@ left-aligned, but you can easily change them to center or right aligned.</p>
         Disabled
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Nav</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div></template>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h3 id="right-alignment" tabindex="-1"><a class="header-anchor" href="#right-alignment" aria-hidden="true">#</a> Right Alignment</h3>
+<WNav align="right">
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Nav</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>right<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">active</span><span class="token punctuation">></span></span>
+        Active
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">disabled</span><span class="token punctuation">></span></span>
+        Disabled
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Nav</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="vertical" tabindex="-1"><a class="header-anchor" href="#vertical" aria-hidden="true">#</a> Vertical</h2>
+<p>Set prop <code>vertical</code> to <code>true</code> to make the <code>&lt;Nav&gt;</code> vertical.</p>
+<div class="border mt-3">
+<WNav vertical>
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+</div>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Nav</span> <span class="token attr-name">vertical</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">active</span><span class="token punctuation">></span></span>
+        Active
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">disabled</span><span class="token punctuation">></span></span>
+        Disabled
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Nav</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="tabs-menu" tabindex="-1"><a class="header-anchor" href="#tabs-menu" aria-hidden="true">#</a> Tabs Menu</h2>
+<p>Set prop <code>tabs</code> to <code>true</code> to make Tabs Menu.</p>
+<WNav tabs>
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Nav</span> <span class="token attr-name">tabs</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">active</span><span class="token punctuation">></span></span>
+        Active
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">disabled</span><span class="token punctuation">></span></span>
+        Disabled
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Nav</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="pills" tabindex="-1"><a class="header-anchor" href="#pills" aria-hidden="true">#</a> Pills</h2>
+<p>Take that same HTML, but use <code>pills</code> prop instead:</p>
+<WNav pills>
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Nav</span> <span class="token attr-name">pills</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">active</span><span class="token punctuation">></span></span>
+        Active
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">disabled</span><span class="token punctuation">></span></span>
+        Disabled
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Nav</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="fill-and-justify" tabindex="-1"><a class="header-anchor" href="#fill-and-justify" aria-hidden="true">#</a> Fill and justify</h2>
+<WNav pills fill>
+    <WNavItem active>
+        Active
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem>
+        Link
+    </WNavItem>
+    <WNavItem disabled>
+        Disabled
+    </WNavItem>
+</WNav>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Nav</span> <span class="token attr-name">pills</span> <span class="token attr-name">fill</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">active</span><span class="token punctuation">></span></span>
+        Active
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span><span class="token punctuation">></span></span>
+        Link
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavItem</span> <span class="token attr-name">disabled</span><span class="token punctuation">></span></span>
+        Disabled
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>NavItem</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Nav</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="justified" tabindex="-1"><a class="header-anchor" href="#justified" aria-hidden="true">#</a> Justified</h2>
+<p>Use prop <code>justified</code> to make equal width nav items.</p>
+</template>

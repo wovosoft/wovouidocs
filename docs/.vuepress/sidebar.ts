@@ -31,5 +31,6 @@ export default [
     '/list-group/',
     '/modals/',
     '/navs-and-tabs/',
+    '/navbar/',
     '/icons/',
 ]

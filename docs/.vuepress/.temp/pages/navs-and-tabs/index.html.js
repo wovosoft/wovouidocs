@@ -22,13 +22,55 @@ export const data = {
           "title": "Center Alignment",
           "slug": "center-alignment",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "Right Alignment",
+          "slug": "right-alignment",
+          "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "Vertical",
+      "slug": "vertical",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Tabs Menu",
+      "slug": "tabs-menu",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Pills",
+      "slug": "pills",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Fill and justify",
+      "slug": "fill-and-justify",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Justified",
+      "slug": "justified",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1644943255000,
+    "contributors": [
+      {
+        "name": "Narayan Adhikary",
+        "email": "wovosoft@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "navs-and-tabs/index.md"
 }

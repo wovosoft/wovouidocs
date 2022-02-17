@@ -59,7 +59,7 @@ function getCssValue(el: HTMLElement | null, property: string): number {
 
 <template>
     <header ref="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <ToggleDarkModeButton v-if="enableDarkMode"/>
+<!--        <ToggleDarkModeButton v-if="enableDarkMode"/>-->
         <div class="container">
             <ToggleSidebarButton class="navbar-toggler" @toggle="$emit('toggle-sidebar')"/>
 
