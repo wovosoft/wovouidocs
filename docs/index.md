@@ -4,7 +4,7 @@
 of [Bootstrap 5's](https://getbootstrap.com/) designs. The JavaScript functionality of Bootstrap is done
 by [Vuejs](https://v3.vuejs.org/). Some extra components are added to the library too.
 
-Docs generated with [vuepress2](https://v2.vuepress.vuejs.org/) and proudly hosted on [Netlify](https://www.netlify.com/).
+Docs generated with [vuepress2](https://v2.vuepress.vuejs.org/) and proudly hosted on [Vercel](https://www.vercel.com/).
 
 <div class="text-center my-5">
     <router-link class="btn btn-primary text-decoration-none" to="/getting-started">Get Started</router-link>
