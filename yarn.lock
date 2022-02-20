@@ -627,10 +627,10 @@
   dependencies:
     "vue" "^3.2.25"
 
-"@wovosoft/wovoui@^0.2.4":
-  "integrity" "sha512-JTwK415ViVKlJOYxo4hQBz+wnEi+N8ZilAueWRT94mYjmC3k7dW+rqM0dosOlqY8+cJkiIHIpzBF2qN9C/yCgQ=="
-  "resolved" "https://registry.npmjs.org/@wovosoft/wovoui/-/wovoui-0.2.4.tgz"
-  "version" "0.2.4"
+"@wovosoft/wovoui@^0.2.5":
+  "integrity" "sha512-Qe+y7LFFbjFgUgWPFuSn1irKsfhwtzd6RdUyh65USSnidtWCQDMcoQDUvzZSzCq5S6UlLyJKSldPrKPokmOumA=="
+  "resolved" "https://registry.npmjs.org/@wovosoft/wovoui/-/wovoui-0.2.5.tgz"
+  "version" "0.2.5"
   dependencies:
     "@popperjs/core" "^2.10.2"
     "@wovosoft/wovoui-icons" "^0.0.3"

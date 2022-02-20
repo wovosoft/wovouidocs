@@ -2,7 +2,7 @@
 <p><a href="https://github.com/wovosoft/wovoui" target="_blank" rel="noopener noreferrer">wovoui<ExternalLinkIcon/></a> is a vuejs based components library. It is made on top
 of <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap 5's<ExternalLinkIcon/></a> designs. The JavaScript functionality of Bootstrap is done
 by <a href="https://v3.vuejs.org/" target="_blank" rel="noopener noreferrer">Vuejs<ExternalLinkIcon/></a>. Some extra components are added to the library too.</p>
-<p>Docs generated with <a href="https://v2.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">vuepress2<ExternalLinkIcon/></a> and proudly hosted on <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify<ExternalLinkIcon/></a>.</p>
+<p>Docs generated with <a href="https://v2.vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">vuepress2<ExternalLinkIcon/></a> and proudly hosted on <a href="https://www.vercel.com/" target="_blank" rel="noopener noreferrer">Vercel<ExternalLinkIcon/></a>.</p>
 <div class="text-center my-5">
     <router-link class="btn btn-primary text-decoration-none" to="/getting-started">Get Started</router-link>
     <a class="ms-2 btn btn-primary text-decoration-none" href="https://github.com/wovosoft/wovouidocs" target="_blank">Github</a>

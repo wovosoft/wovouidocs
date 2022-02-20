@@ -39,7 +39,7 @@ export const themeData = {
     "/modals/",
     "/navs-and-tabs/",
     "/navbar/",
-    "/icons/"
+    "/offcanvas/"
   ],
   "navbar": [
     {

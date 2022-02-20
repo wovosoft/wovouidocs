@@ -32,5 +32,5 @@ export default [
     '/modals/',
     '/navs-and-tabs/',
     '/navbar/',
-    '/icons/',
+    '/offcanvas/'
 ]
