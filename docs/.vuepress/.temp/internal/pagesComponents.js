@@ -29,10 +29,6 @@ export const pagesComponents = {
   "v-2394e1a6": defineAsyncComponent(() => import(/* webpackChunkName: "v-2394e1a6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/index.html.vue")),
   // path: /dropdowns/input.html
   "v-d02a7d16": defineAsyncComponent(() => import(/* webpackChunkName: "v-d02a7d16" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/input.html.vue")),
-  // path: /getting-started/
-  "v-ccdc4da0": defineAsyncComponent(() => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.vue")),
-  // path: /icons/
-  "v-fb1db6e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb1db6e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/icons/index.html.vue")),
   // path: /form/checkbox.html
   "v-2643f7a4": defineAsyncComponent(() => import(/* webpackChunkName: "v-2643f7a4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/checkbox.html.vue")),
   // path: /form/group.html
@@ -51,6 +47,10 @@ export const pagesComponents = {
   "v-0087f093": defineAsyncComponent(() => import(/* webpackChunkName: "v-0087f093" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/spinbutton.html.vue")),
   // path: /form/tags.html
   "v-2ecfa7e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-2ecfa7e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/tags.html.vue")),
+  // path: /getting-started/
+  "v-ccdc4da0": defineAsyncComponent(() => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.vue")),
+  // path: /icons/
+  "v-fb1db6e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb1db6e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/icons/index.html.vue")),
   // path: /list-group/
   "v-366a25f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-366a25f4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/list-group/index.html.vue")),
   // path: /modals/
@@ -61,6 +61,8 @@ export const pagesComponents = {
   "v-5a0fcb52": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a0fcb52" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/navs-and-tabs/index.html.vue")),
   // path: /offcanvas/
   "v-53bead41": defineAsyncComponent(() => import(/* webpackChunkName: "v-53bead41" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/offcanvas/index.html.vue")),
+  // path: /pagination/
+  "v-defd3988": defineAsyncComponent(() => import(/* webpackChunkName: "v-defd3988" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/pagination/index.html.vue")),
   // path: /buttons/toolbars/
   "v-01e68820": defineAsyncComponent(() => import(/* webpackChunkName: "v-01e68820" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/buttons/toolbars/index.html.vue")),
   // path: /404.html

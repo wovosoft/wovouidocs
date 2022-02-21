@@ -32,5 +32,6 @@ export default [
     '/modals/',
     '/navs-and-tabs/',
     '/navbar/',
-    '/offcanvas/'
+    '/offcanvas/',
+    '/pagination/'
 ]

@@ -39,7 +39,8 @@ export const themeData = {
     "/modals/",
     "/navs-and-tabs/",
     "/navbar/",
-    "/offcanvas/"
+    "/offcanvas/",
+    "/pagination/"
   ],
   "navbar": [
     {
