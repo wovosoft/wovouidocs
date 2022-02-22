@@ -173,5 +173,30 @@ a set of search results, an appropriate label could be aria-label=&quot;Search r
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Pagination</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="dynamic-page-item-generation" tabindex="-1"><a class="header-anchor" href="#dynamic-page-item-generation" aria-hidden="true">#</a> Dynamic Page Item Generation</h2>
-<p><code>working on dynamic page generation. very soon this feature will be available...</code></p>
+<nav aria-label="...">
+<WPagination :current-page="currentPage"
+:first-col-page-count="firstColPageCount"
+:center-col-page-count="centerColPageCount"
+:last-col-page-count="lastColPageCount"
+:total-rows="totalRows" 
+:per-page="perPage">
+    </WPagination>
+</nav>
+<p>Total Rows : <input v-model="totalRows" type="number"/><br>
+Per Page : <input v-model="perPage" type="number"/><br>
+Current Page : <input v-model="currentPage" type="number"/><br>
+First Col Page Count : <input v-model="firstColPageCount" type="number"/><br>
+Center Col Page Count : <input v-model="centerColPageCount" type="number"/><br>
+Last Col Page Count : <input v-model="lastColPageCount" type="number"/><br></p>
 </template>
+
+<script setup>
+import {ref} from "vue"; 
+
+const totalRows=ref(1);
+const perPage=ref(1);
+const currentPage=ref(5);
+const firstColPageCount=ref(3);
+const centerColPageCount=ref(3);
+const lastColPageCount=ref(3);
+</script>

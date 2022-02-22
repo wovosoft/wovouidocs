@@ -215,6 +215,32 @@ Use prop `align` to align pagination with respect to its container. Supported va
 </nav>
 ```
 
-##  Dynamic Page Item Generation
+## Dynamic Page Item Generation
 
-`working on dynamic page generation. very soon this feature will be available...`
+<nav aria-label="...">
+<WPagination :current-page="currentPage"
+:first-col-page-count="firstColPageCount"
+:center-col-page-count="centerColPageCount"
+:last-col-page-count="lastColPageCount"
+:total-rows="totalRows" 
+:per-page="perPage">
+    </WPagination>
+</nav>
+
+Total Rows : <input v-model="totalRows" type="number"/><br>
+Per Page : <input v-model="perPage" type="number"/><br>
+Current Page : <input v-model="currentPage" type="number"/><br>
+First Col Page Count : <input v-model="firstColPageCount" type="number"/><br>
+Center Col Page Count : <input v-model="centerColPageCount" type="number"/><br>
+Last Col Page Count : <input v-model="lastColPageCount" type="number"/><br>
+
+<script setup>
+import {ref} from "vue"; 
+
+const totalRows=ref(1);
+const perPage=ref(1);
+const currentPage=ref(5);
+const firstColPageCount=ref(3);
+const centerColPageCount=ref(3);
+const lastColPageCount=ref(3);
+</script>

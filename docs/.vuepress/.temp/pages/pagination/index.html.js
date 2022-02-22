@@ -70,8 +70,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1645456011000,
+    "contributors": [
+      {
+        "name": "Narayan Adhikary",
+        "email": "wovosoft@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "pagination/index.md"
 }
