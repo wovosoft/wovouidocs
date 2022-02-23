@@ -57,6 +57,14 @@ export const pagesData = {
   "v-5db44df4": () => import(/* webpackChunkName: "v-5db44df4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/navbar/index.html.js").then(({ data }) => data),
   // path: /navs-and-tabs/
   "v-5a0fcb52": () => import(/* webpackChunkName: "v-5a0fcb52" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/navs-and-tabs/index.html.js").then(({ data }) => data),
+  // path: /popover/
+  "v-031b3fba": () => import(/* webpackChunkName: "v-031b3fba" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/popover/index.html.js").then(({ data }) => data),
+  // path: /progress/
+  "v-76904e6e": () => import(/* webpackChunkName: "v-76904e6e" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/progress/index.html.js").then(({ data }) => data),
+  // path: /spinner/
+  "v-5ef87b2f": () => import(/* webpackChunkName: "v-5ef87b2f" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/spinner/index.html.js").then(({ data }) => data),
+  // path: /toasts/
+  "v-254f296a": () => import(/* webpackChunkName: "v-254f296a" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/toasts/index.html.js").then(({ data }) => data),
   // path: /offcanvas/
   "v-53bead41": () => import(/* webpackChunkName: "v-53bead41" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/offcanvas/index.html.js").then(({ data }) => data),
   // path: /pagination/

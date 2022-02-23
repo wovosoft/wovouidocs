@@ -217,6 +217,25 @@ Use prop `align` to align pagination with respect to its container. Supported va
 
 ## Dynamic Page Item Generation
 
+Page Items can be generated dynamically. In that case, you have to specify the props `total-rows`, `per-page`
+and `current-page`. `v-model` can be used in lieu of `current-page` prop. These two props are identical.
+
+<nav aria-label="...">
+<WPagination :current-page="3" :total-rows="1000" :per-page="10"/>
+</nav>
+
+```html
+
+<nav aria-label="...">
+    <Pagination :current-page="3" :total-rows="1000" :per-page="10"/>
+</nav>
+```
+
+## Items Separation
+
+Each Dynamic `Pagination` component has three columns. By default, each column contains maximum of three items. You can
+modify these quantities by using props `first-col-page-count`,`center-col-page-count` and `last-col-page-count`.
+
 <nav aria-label="...">
 <WPagination :current-page="currentPage"
 :first-col-page-count="firstColPageCount"
@@ -234,11 +253,43 @@ First Col Page Count : <input v-model="firstColPageCount" type="number"/><br>
 Center Col Page Count : <input v-model="centerColPageCount" type="number"/><br>
 Last Col Page Count : <input v-model="lastColPageCount" type="number"/><br>
 
+```vue
+
+<template>
+    <nav aria-label="...">
+        <Pagination
+            :current-page="currentPage"
+            :first-col-page-count="firstColPageCount"
+            :center-col-page-count="centerColPageCount"
+            :last-col-page-count="lastColPageCount"
+            :total-rows="totalRows"
+            :per-page="perPage">
+        </Pagination>
+    </nav>
+    Total Rows : <input v-model="totalRows" type="number"/><br>
+    Per Page : <input v-model="perPage" type="number"/><br>
+    Current Page : <input v-model="currentPage" type="number"/><br>
+    First Col Page Count : <input v-model="firstColPageCount" type="number"/><br>
+    Center Col Page Count : <input v-model="centerColPageCount" type="number"/><br>
+    Last Col Page Count : <input v-model="lastColPageCount" type="number"/><br>
+</template>
+<script setup>
+import {ref} from "vue";
+
+const totalRows = ref(1000);
+const perPage = ref(10);
+const currentPage = ref(5);
+const firstColPageCount = ref(3);
+const centerColPageCount = ref(3);
+const lastColPageCount = ref(3);
+</script>
+```
+
 <script setup>
 import {ref} from "vue"; 
 
-const totalRows=ref(1);
-const perPage=ref(1);
+const totalRows=ref(1000);
+const perPage=ref(10);
 const currentPage=ref(5);
 const firstColPageCount=ref(3);
 const centerColPageCount=ref(3);

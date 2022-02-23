@@ -33,5 +33,9 @@ export default [
     '/navs-and-tabs/',
     '/navbar/',
     '/offcanvas/',
-    '/pagination/'
+    '/pagination/',
+    '/popover/',
+    '/progress/',
+    '/spinner/',
+    '/toasts/',
 ]

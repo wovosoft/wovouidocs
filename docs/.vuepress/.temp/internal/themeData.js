@@ -40,7 +40,11 @@ export const themeData = {
     "/navs-and-tabs/",
     "/navbar/",
     "/offcanvas/",
-    "/pagination/"
+    "/pagination/",
+    "/popover/",
+    "/progress/",
+    "/spinner/",
+    "/toasts/"
   ],
   "navbar": [
     {
