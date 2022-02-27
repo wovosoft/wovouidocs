@@ -66,7 +66,6 @@ function getCssValue(el: HTMLElement | null, property: string): number {
             <div ref="navbarBrand">
                 <NavbarBrand class="navbar-brand"/>
             </div>
-
             <div class="navbar-items-wrapper" :style="linksWrapperStyle">
                 <slot name="before"/>
                 <NavbarItems class="can-hide"/>

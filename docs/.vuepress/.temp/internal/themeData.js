@@ -9,6 +9,7 @@ export const themeData = {
     "/getting-started/",
     "/accordion/",
     "/alerts/",
+    "/aspect/",
     "/badges/",
     "/breadcrumbs/",
     "/buttons/",
@@ -44,7 +45,9 @@ export const themeData = {
     "/popover/",
     "/progress/",
     "/spinner/",
-    "/toasts/"
+    "/stack/",
+    "/toasts/",
+    "/tooltip/"
   ],
   "navbar": [
     {

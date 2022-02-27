@@ -1,0 +1,44 @@
+<template><h1 id="stacks" tabindex="-1"><a class="header-anchor" href="#stacks" aria-hidden="true">#</a> Stacks</h1>
+<p>Shorthand helpers that build on top of our flexbox utilities to make component layout faster and easier than ever.</p>
+<p>Stacks offer a shortcut for applying a number of flexbox properties to quickly and easily create layouts in Bootstrap.
+All credit for the concept and implementation goes to the open source <a href="https://almonk.github.io/pylon/" target="_blank" rel="noopener noreferrer">Pylon project<ExternalLinkIcon/></a>.</p>
+<h2 id="horizontal" tabindex="-1"><a class="header-anchor" href="#horizontal" aria-hidden="true">#</a> Horizontal</h2>
+<p>By, default <code>&lt;Stack&gt;</code>s are horizontal.</p>
+<WStack>
+    <div class="bg-light border">First item</div>
+    <div class="bg-light border">Second item</div>
+    <div class="bg-light border">Third item</div>
+</WStack>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Stack</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>First item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Second item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Third item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Stack</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="vertical" tabindex="-1"><a class="header-anchor" href="#vertical" aria-hidden="true">#</a> Vertical</h2>
+<p>To make <code>vertical</code> stacks, set <code>vertical</code> prop's value to <code>true</code>.</p>
+<WStack vertical>
+    <div class="bg-light border">First item</div>
+    <div class="bg-light border">Second item</div>
+    <div class="bg-light border">Third item</div>
+</WStack>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Stack</span> <span class="token attr-name">vertical</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>First item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Second item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Third item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Stack</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="gap" tabindex="-1"><a class="header-anchor" href="#gap" aria-hidden="true">#</a> Gap</h2>
+<p>To apply <code>gap</code> between stack elements, use <code>gap</code> property. Values should be numeric.</p>
+<WStack :gap="3" vertical>
+    <div class="bg-light border">First item</div>
+    <div class="bg-light border">Second item</div>
+    <div class="bg-light border">Third item</div>
+</WStack>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Stack</span> <span class="token attr-name">:gap</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>3<span class="token punctuation">"</span></span> <span class="token attr-name">vertical</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>First item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Second item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-light border<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Third item<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Stack</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div></template>

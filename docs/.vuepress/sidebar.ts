@@ -2,6 +2,7 @@ export default [
     '/getting-started/',
     '/accordion/',
     '/alerts/',
+    '/aspect/',
     '/badges/',
     '/breadcrumbs/',
     '/buttons/',
@@ -37,5 +38,7 @@ export default [
     '/popover/',
     '/progress/',
     '/spinner/',
+    '/stack/',
     '/toasts/',
+    '/tooltip/',
 ]
