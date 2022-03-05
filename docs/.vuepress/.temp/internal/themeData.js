@@ -47,7 +47,8 @@ export const themeData = {
     "/spinner/",
     "/stack/",
     "/toasts/",
-    "/tooltip/"
+    "/tooltip/",
+    "/layout/"
   ],
   "navbar": [
     {

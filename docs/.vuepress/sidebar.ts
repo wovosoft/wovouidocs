@@ -41,4 +41,5 @@ export default [
     '/stack/',
     '/toasts/',
     '/tooltip/',
+    '/layout/'
 ]

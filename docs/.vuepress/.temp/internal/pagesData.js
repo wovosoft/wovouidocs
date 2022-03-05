@@ -3,10 +3,10 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /accordion/
   "v-caf798c0": () => import(/* webpackChunkName: "v-caf798c0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/accordion/index.html.js").then(({ data }) => data),
-  // path: /aspect/
-  "v-3fd8e9be": () => import(/* webpackChunkName: "v-3fd8e9be" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/aspect/index.html.js").then(({ data }) => data),
   // path: /alerts/
   "v-3352235f": () => import(/* webpackChunkName: "v-3352235f" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/alerts/index.html.js").then(({ data }) => data),
+  // path: /aspect/
+  "v-3fd8e9be": () => import(/* webpackChunkName: "v-3fd8e9be" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/aspect/index.html.js").then(({ data }) => data),
   // path: /badges/
   "v-555fbfe6": () => import(/* webpackChunkName: "v-555fbfe6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/badges/index.html.js").then(({ data }) => data),
   // path: /breadcrumbs/
@@ -51,6 +51,8 @@ export const pagesData = {
   "v-ccdc4da0": () => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.js").then(({ data }) => data),
   // path: /icons/
   "v-fb1db6e4": () => import(/* webpackChunkName: "v-fb1db6e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/icons/index.html.js").then(({ data }) => data),
+  // path: /layout/
+  "v-6789dd2c": () => import(/* webpackChunkName: "v-6789dd2c" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/layout/index.html.js").then(({ data }) => data),
   // path: /list-group/
   "v-366a25f4": () => import(/* webpackChunkName: "v-366a25f4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/list-group/index.html.js").then(({ data }) => data),
   // path: /modals/

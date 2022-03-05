@@ -5,10 +5,10 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /accordion/
   "v-caf798c0": defineAsyncComponent(() => import(/* webpackChunkName: "v-caf798c0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/accordion/index.html.vue")),
-  // path: /aspect/
-  "v-3fd8e9be": defineAsyncComponent(() => import(/* webpackChunkName: "v-3fd8e9be" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/aspect/index.html.vue")),
   // path: /alerts/
   "v-3352235f": defineAsyncComponent(() => import(/* webpackChunkName: "v-3352235f" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/alerts/index.html.vue")),
+  // path: /aspect/
+  "v-3fd8e9be": defineAsyncComponent(() => import(/* webpackChunkName: "v-3fd8e9be" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/aspect/index.html.vue")),
   // path: /badges/
   "v-555fbfe6": defineAsyncComponent(() => import(/* webpackChunkName: "v-555fbfe6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/badges/index.html.vue")),
   // path: /breadcrumbs/
@@ -53,6 +53,8 @@ export const pagesComponents = {
   "v-ccdc4da0": defineAsyncComponent(() => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.vue")),
   // path: /icons/
   "v-fb1db6e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb1db6e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/icons/index.html.vue")),
+  // path: /layout/
+  "v-6789dd2c": defineAsyncComponent(() => import(/* webpackChunkName: "v-6789dd2c" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/layout/index.html.vue")),
   // path: /list-group/
   "v-366a25f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-366a25f4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/list-group/index.html.vue")),
   // path: /modals/

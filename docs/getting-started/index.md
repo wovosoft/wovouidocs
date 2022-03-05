@@ -30,3 +30,26 @@ To install it using [YARN](https://yarnpkg.com/) use the following command:
 ```shell
 yarn add @wovosoft/wovoui
 ```
+
+## How to Use?
+
+For better performance, You should use components like the method below:
+
+```javascript
+import {Button, Accordion} from "@wovosoft/wovoui";
+
+export default {
+    components: {Button, Accordion}
+}
+```
+
+But, if you want to register all components, then follow the method given below:
+
+```javascript
+import {createApp} from "vue";
+import plugin from "@wovosoft/wovoui/plugin";
+
+const app = createApp({});
+app.mount("#app");
+app.use(plugin);
+```

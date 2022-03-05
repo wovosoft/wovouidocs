@@ -32,10 +32,11 @@ Group a series of buttons together on a single line or stack them in a vertical 
 </div>
 
 ```vue
+
 <ButtonGroup aria-label="Basic mixed styles example">
-    <Button variant="warning">Left</Button>
-    <Button variant="danger">Middle</Button>
-    <Button variant="primary">Right</Button>
+<Button variant="warning">Left</Button>
+<Button variant="danger">Middle</Button>
+<Button variant="primary">Right</Button>
 </ButtonGroup>
 ```
 
@@ -133,21 +134,22 @@ utilities though to space things properly.
 </div>
 
 ```vue
+
 <ButtonToolbar class="mb-3" aria-label="Toolbar with button groups">
-    <ButtonGroup class="me-2" aria-label="First group">
-        <Button variant="secondary" outline>1</Button>
-        <Button variant="secondary" outline>2</Button>
-        <Button variant="secondary" outline>3</Button>
-        <Button variant="secondary" outline>4</Button>
-    </ButtonGroup>
-    <InputGroup>
-        <InputGroupText>@</InputGroupText>
-        <Input
-            placeholder="Input group example"
-            aria-label="Input group example"
-            aria-describedby="btnGroupAddon"
-        />
-    </InputGroup>
+<ButtonGroup class="me-2" aria-label="First group">
+    <Button variant="secondary" outline>1</Button>
+    <Button variant="secondary" outline>2</Button>
+    <Button variant="secondary" outline>3</Button>
+    <Button variant="secondary" outline>4</Button>
+</ButtonGroup>
+<InputGroup>
+    <InputGroupText>@</InputGroupText>
+    <Input
+        placeholder="Input group example"
+        aria-label="Input group example"
+        aria-describedby="btnGroupAddon"
+    />
+</InputGroup>
 </ButtonToolbar>
 ```
 
@@ -173,28 +175,29 @@ utilities though to space things properly.
 </div>
 
 ```vue
+
 <ButtonToolbar justified aria-label="Toolbar with button groups">
-    <ButtonGroup aria-label="First group">
-        <Button variant="secondary" outline>1</Button>
-        <Button variant="secondary" outline>2</Button>
-        <Button variant="secondary" outline>3</Button>
-        <Button variant="secondary" outline>4</Button>
-    </ButtonGroup>
-    <InputGroup class="input-group">
-        <InputGroupText>@</InputGroupText>
-        <Input
-            placeholder="Input group example"
-            aria-label="Input group example"
-            aria-describedby="btnGroupAddon2"
-        />
-    </InputGroup>
+<ButtonGroup aria-label="First group">
+    <Button variant="secondary" outline>1</Button>
+    <Button variant="secondary" outline>2</Button>
+    <Button variant="secondary" outline>3</Button>
+    <Button variant="secondary" outline>4</Button>
+</ButtonGroup>
+<InputGroup class="input-group">
+    <InputGroupText>@</InputGroupText>
+    <Input
+        placeholder="Input group example"
+        aria-label="Input group example"
+        aria-describedby="btnGroupAddon2"
+    />
+</InputGroup>
 </ButtonToolbar>
 ```
 
-##  Sizing
+## Sizing
 
-Instead of applying button sizing to every button in a group, just add size to each button group,
-including each one when nesting multiple groups.
+Instead of applying button sizing to every button in a group, just add size to each button group, including each one
+when nesting multiple groups.
 
 <div class="bootstrap">
 <div class="mb-2" v-for="size in ['lg',null,'sm']">
@@ -207,16 +210,17 @@ including each one when nesting multiple groups.
 </div>
 
 ```vue
+
 <div class="mb-2" v-for="size in ['lg',null,'sm']">
-    <ButtonGroup :size="size" aria-label="Button Group">
-        <Button outline>Left</Button>
-        <Button outline>Middle</Button>
-        <Button outline>Right</Button>
-    </ButtonGroup>
+<ButtonGroup :size="size" aria-label="Button Group">
+    <Button outline>Left</Button>
+    <Button outline>Middle</Button>
+    <Button outline>Right</Button>
+</ButtonGroup>
 </div>
 ```
 
-##  Vertical variation
+## Vertical variation
 
 Make a set of buttons appear vertically stacked rather than horizontally by setting the `vertical`
 prop. Split button dropdowns are not supported here.
@@ -230,19 +234,20 @@ prop. Split button dropdowns are not supported here.
 </div>
 
 ```vue
+
 <ButtonGroup vertical>
-    <Button>Top</Button>
-    <Button>Middle</Button>
-    <Button>Bottom</Button>
+<Button>Top</Button>
+<Button>Middle</Button>
+<Button>Bottom</Button>
 </ButtonGroup>
 ```
 
-##  Dropdown menu support
+## Dropdown menu support
 
-Add `<Dropdown>` menus directly inside your `<ButtonGroup>`. Note that split
-dropdown menus are not supported when prop `vertical` is set.
+Add `<Dropdown>` menus directly inside your `<ButtonGroup>`. Note that split dropdown menus are not supported when
+prop `vertical` is set.
 
-<div class="bootstrap">
+
 <WButtonGroup>
     <WButton>Button</WButton>
     <WDropdown right text="Menu">
@@ -258,35 +263,32 @@ dropdown menus are not supported when prop `vertical` is set.
         <WDropdownItem>Item 3</WDropdownItem>
     </WDropdown>
 </WButtonGroup>
-</div>
 
 ```vue
+
 <ButtonGroup>
-    <Button>Button</Button>
-    <Dropdown right text="Menu">
-        <DropdownItem>Item 1</DropdownItem>
-        <DropdownItem>Item 2</DropdownItem>
-        <DropdownDivider></DropdownDivider>
-        <DropdownItem>Item 3</DropdownItem>
-    </Dropdown>
-    <Dropdown right split text="Split Menu">
-        <DropdownItem>Item 1</DropdownItem>
-        <DropdownItem>Item 2</DropdownItem>
-        <DropdownDivider></DropdownDivider>
-        <DropdownItem>Item 3</DropdownItem>
-    </Dropdown>
+<Button>Button</Button>
+<Dropdown right text="Menu">
+    <DropdownItem>Item 1</DropdownItem>
+    <DropdownItem>Item 2</DropdownItem>
+    <DropdownDivider></DropdownDivider>
+    <DropdownItem>Item 3</DropdownItem>
+</Dropdown>
+<Dropdown right split text="Split Menu">
+    <DropdownItem>Item 1</DropdownItem>
+    <DropdownItem>Item 2</DropdownItem>
+    <DropdownDivider></DropdownDivider>
+    <DropdownItem>Item 3</DropdownItem>
+</Dropdown>
 </ButtonGroup>
 ```
 
-##  Properties
+## Properties
 
 <WDataTable :items="componentReference" :fields="['property','type','default','description']"/>
 
-<script>
-export default {
-    setup(props){
-        return {
-            componentReference: [
+<script setup>
+const componentReference=[
                 {
                     property: 'aria-role',
                     type: 'String',
@@ -312,7 +314,4 @@ export default {
                     description: 'When set, rendered the button group in vertical mode',
                 },
             ]
-        }
-    }
-}
 </script>

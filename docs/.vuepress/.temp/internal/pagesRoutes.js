@@ -3,8 +3,8 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 const routeItems = [
   ["v-8daa1a0e","/",{"title":"Introduction"},["/index.html","/index.md"]],
   ["v-caf798c0","/accordion/",{"title":"Accordion"},["/accordion/index.html","/accordion/index.md"]],
-  ["v-3fd8e9be","/aspect/",{"title":"Aspect Ratio"},["/aspect/index.html","/aspect/index.md"]],
   ["v-3352235f","/alerts/",{"title":"Alerts"},["/alerts/index.html","/alerts/index.md"]],
+  ["v-3fd8e9be","/aspect/",{"title":"Aspect Ratio"},["/aspect/index.html","/aspect/index.md"]],
   ["v-555fbfe6","/badges/",{"title":"Badges"},["/badges/index.html","/badges/index.md"]],
   ["v-76a6e250","/breadcrumbs/",{"title":"Breadcrumbs"},["/breadcrumbs/index.html","/breadcrumbs/index.md"]],
   ["v-62839e5e","/buttons/groups.html",{"title":"Button Groups"},["/buttons/groups","/buttons/groups.md"]],
@@ -27,6 +27,7 @@ const routeItems = [
   ["v-2ecfa7e4","/form/tags.html",{"title":"Form Tags"},["/form/tags","/form/tags.md"]],
   ["v-ccdc4da0","/getting-started/",{"title":"Getting Started"},["/getting-started/index.html","/getting-started/index.md"]],
   ["v-fb1db6e4","/icons/",{"title":"Bootstrap Icons"},["/icons/index.html","/icons/index.md"]],
+  ["v-6789dd2c","/layout/",{"title":"Containers"},["/layout/index.html","/layout/index.md"]],
   ["v-366a25f4","/list-group/",{"title":"List Group"},["/list-group/index.html","/list-group/index.md"]],
   ["v-99b4f720","/modals/",{"title":"Modal"},["/modals/index.html","/modals/index.md"]],
   ["v-5db44df4","/navbar/",{"title":"Navbar"},["/navbar/index.html","/navbar/index.md"]],

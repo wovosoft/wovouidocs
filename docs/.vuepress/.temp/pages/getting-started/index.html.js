@@ -17,6 +17,12 @@ export const data = {
       "title": "Using Yarn",
       "slug": "using-yarn",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "How to Use?",
+      "slug": "how-to-use",
+      "children": []
     }
   ],
   "git": {
