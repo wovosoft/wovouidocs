@@ -146,23 +146,23 @@ hr {
   border-top: 1px solid var(--c-border);
 }
 
-table {
-  border-collapse: collapse;
-  margin: 1rem 0;
-  display: block;
-  overflow-x: auto;
-}
-
-tr {
-  border-top: 1px solid var(--c-border-dark);
-
-  &:nth-child(2n) {
-    background-color: var(--c-bg-light);
-  }
-}
-
-th,
-td {
-  border: 1px solid var(--c-border-dark);
-  padding: 0.6em 1em;
-}
+//table {
+//  border-collapse: collapse;
+//  margin: 1rem 0;
+//  display: block;
+//  overflow-x: auto;
+//}
+//
+//tr {
+//  border-top: 1px solid var(--c-border-dark);
+//
+//  &:nth-child(2n) {
+//    background-color: var(--c-bg-light);
+//  }
+//}
+//
+//th,
+//td {
+//  border: 1px solid var(--c-border-dark);
+//  padding: 0.6em 1em;
+//}

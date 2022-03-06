@@ -1,16 +1,21 @@
 {
-  "hash": "23bcafb9",
-  "browserHash": "86684f7d",
+  "hash": "a2276e86",
+  "browserHash": "6f7b09e8",
   "optimized": {
-    "highlight.js/lib/core": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/highlight_js_lib_core.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/highlight.js/es/core.js",
-      "needsInterop": false
+    "dayjs": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs.js",
+      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/dayjs.min.js",
+      "needsInterop": true
     },
-    "@highlightjs/vue-plugin/src/lib/utils": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@highlightjs_vue-plugin_src_lib_utils.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/@highlightjs/vue-plugin/src/lib/utils.ts",
-      "needsInterop": false
+    "dayjs/plugin/isToday": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs_plugin_isToday.js",
+      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/plugin/isToday.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/localeData": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs_plugin_localeData.js",
+      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/plugin/localeData.js",
+      "needsInterop": true
     },
     "lodash/string.js": {
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/lodash_string_js.js",
@@ -26,21 +31,6 @@
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@popperjs_core.js",
       "src": "E:/narayan/laragon/www/wovoui/node_modules/@popperjs/core/lib/index.js",
       "needsInterop": false
-    },
-    "dayjs": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/dayjs.min.js",
-      "needsInterop": true
-    },
-    "dayjs/plugin/isToday": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs_plugin_isToday.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/plugin/isToday.js",
-      "needsInterop": true
-    },
-    "dayjs/plugin/localeData": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs_plugin_localeData.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/plugin/localeData.js",
-      "needsInterop": true
     },
     "vue": {
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/vue.js",

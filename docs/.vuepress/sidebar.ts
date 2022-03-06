@@ -41,5 +41,22 @@ export default [
     '/stack/',
     '/toasts/',
     '/tooltip/',
-    '/layout/'
+    {
+        text:'Layout',
+        collapsible: true,
+        children: [
+            '/layout/',
+            "/layout/grid/",
+            "/layout/columns/",
+            "/layout/gutters/",
+        ]
+    },
+    {
+        text:'Content',
+        collapsible: true,
+        children: [
+           "/content/table/"
+        ]
+    },
+
 ]

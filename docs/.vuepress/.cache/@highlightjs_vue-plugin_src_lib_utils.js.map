@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["dep:@highlightjs_vue-plugin_src_lib_utils", "../../../../wovoui/node_modules/@highlightjs/vue-plugin/src/lib/utils.ts"],
-  "sourcesContent": ["\nexport * from \"../../../../../wovoui/node_modules/@highlightjs/vue-plugin/src/lib/utils.ts\"", "export function escapeHtml(value: string): string {\n    return value\n        .replace(/&/g, '&amp;')\n        .replace(/</g, '&lt;')\n        .replace(/>/g, '&gt;')\n        .replace(/\"/g, '&quot;')\n        .replace(/'/g, '&#x27;')\n}\n"],
-  "mappings": ";;;;;AAAA;;;ACAA;AAAO,oBAAoB,OAAuB;AAC9C,SAAO,MACF,QAAQ,MAAM,SACd,QAAQ,MAAM,QACd,QAAQ,MAAM,QACd,QAAQ,MAAM,UACd,QAAQ,MAAM;AAAA;",
-  "names": []
-}

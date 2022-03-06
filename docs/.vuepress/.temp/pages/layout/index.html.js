@@ -26,8 +26,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1646494085000,
+    "contributors": [
+      {
+        "name": "Narayan Adhikary",
+        "email": "wovosoft@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "layout/index.md"
 }
