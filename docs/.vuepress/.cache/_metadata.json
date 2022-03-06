@@ -1,35 +1,10 @@
 {
-  "hash": "a2276e86",
-  "browserHash": "6f7b09e8",
+  "hash": "8146850c",
+  "browserHash": "f47f395e",
   "optimized": {
-    "dayjs": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/dayjs.min.js",
-      "needsInterop": true
-    },
-    "dayjs/plugin/isToday": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs_plugin_isToday.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/plugin/isToday.js",
-      "needsInterop": true
-    },
-    "dayjs/plugin/localeData": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs_plugin_localeData.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/dayjs/plugin/localeData.js",
-      "needsInterop": true
-    },
-    "lodash/string.js": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/lodash_string_js.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/lodash/string.js",
-      "needsInterop": true
-    },
-    "lodash": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/lodash.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/lodash/lodash.js",
-      "needsInterop": true
-    },
-    "@popperjs/core": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@popperjs_core.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/@popperjs/core/lib/index.js",
+    "@wovosoft/wovoui": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@wovosoft_wovoui.js",
+      "src": "E:/narayan/laragon/www/wovouivuepress/node_modules/@wovosoft/wovoui/dist/index.es.js",
       "needsInterop": false
     },
     "vue": {

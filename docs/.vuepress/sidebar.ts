@@ -1,24 +1,42 @@
 export default [
     '/getting-started/',
-    '/accordion/',
-    '/alerts/',
-    '/aspect/',
-    '/badges/',
-    '/breadcrumbs/',
-    '/buttons/',
-    '/buttons/groups/',
-    '/buttons/toolbars/',
-    '/cards/',
-    '/carousel/',
-    '/close-button/',
-    '/collapse/',
-    '/calendar/',
-    '/dropdowns/',
     {
-        text: 'Form',
-        link: '/form/',
+        text: 'Components',
         collapsible: true,
         children: [
+            '/accordion/',
+            '/alerts/',
+            '/aspect/',
+            '/badges/',
+            '/breadcrumbs/',
+            '/buttons/',
+            '/buttons/groups/',
+            '/buttons/toolbars/',
+            '/cards/',
+            '/carousel/',
+            '/close-button/',
+            '/collapse/',
+            '/calendar/',
+            '/dropdowns/',
+            '/list-group/',
+            '/modals/',
+            '/navs-and-tabs/',
+            '/navbar/',
+            '/offcanvas/',
+            '/pagination/',
+            '/popover/',
+            '/progress/',
+            '/spinner/',
+            '/stack/',
+            '/toasts/',
+            '/tooltip/',
+        ]
+    },
+    {
+        text: 'Form',
+        collapsible: true,
+        children: [
+            '/form/',
             "/form/checkbox",
             "/form/input",
             "/form/radio/",
@@ -27,22 +45,11 @@ export default [
             "/form/group/",
             "/form/spinbutton/",
             "/form/tags/",
-        ].sort()
+        ]
     },
-    '/list-group/',
-    '/modals/',
-    '/navs-and-tabs/',
-    '/navbar/',
-    '/offcanvas/',
-    '/pagination/',
-    '/popover/',
-    '/progress/',
-    '/spinner/',
-    '/stack/',
-    '/toasts/',
-    '/tooltip/',
+
     {
-        text:'Layout',
+        text: 'Layout',
         collapsible: true,
         children: [
             '/layout/',
@@ -52,10 +59,10 @@ export default [
         ]
     },
     {
-        text:'Content',
+        text: 'Content',
         collapsible: true,
         children: [
-           "/content/table/"
+            "/content/table/"
         ]
     },
 
