@@ -46,6 +46,7 @@ export const themeData = {
         "/form/",
         "/form/checkbox",
         "/form/input",
+        "/form/textarea",
         "/form/radio/",
         "/form/rating/",
         "/form/select/",

@@ -124,9 +124,7 @@ Use Property `outline` to apply outlined color variants.
 
 Block Level button is a full width button of its container. Use prop `block` to make a block/full width button.
 
-<div class="bootstrap">
 <WButton block variant="primary">Block Level Button</WButton>
-</div>
 
 ```vue
 <Button block variant="primary">Block Level Button</Button>
@@ -188,7 +186,18 @@ The pressed prop can be set to one of three values:
 - <code>null</code>: (default) Neither the class .active nor the attribute <code>aria-pressed</code> will be
   set.
 
-  
+##  Buttons with Badges
+
+Use prop `badge` to set button badges
+
+<WButton :badge="14" class="me-2" badge-variant="primary">Inbox</WButton>
+<WButton :badge="20" badge-variant="primary">Sent</WButton>
+
+```html
+<Button :badge="14" class="me-2" badge-variant="primary">Inbox</Button>
+<Button :badge="20" badge-variant="primary">Sent</Button>
+```
+
 ##  Component reference
 
 <WTable bordered hover striped>
@@ -210,11 +219,8 @@ The pressed prop can be set to one of three values:
     </WTBody>
 </WTable>
 
-<script>
-export default {
-    data(){
-        return {
-            componentReference: {
+<script setup>
+const componentReference= {
                 header: [
                     "Property",
                     "Type",
@@ -299,9 +305,6 @@ export default {
                     ]
                 ]
             }
-        }
-    }
-}
 </script>
 <style>
 .child-m-2  button {

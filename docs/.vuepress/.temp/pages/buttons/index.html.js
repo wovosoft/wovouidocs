@@ -74,6 +74,12 @@ export const data = {
     },
     {
       "level": 2,
+      "title": "Buttons with Badges",
+      "slug": "buttons-with-badges",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "Component reference",
       "slug": "component-reference",
       "children": []

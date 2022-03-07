@@ -16,6 +16,6 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "@wovosoft/wovoui": "^0.2.16"
+    "@wovosoft/wovoui": "^0.2.17"
   }
 }

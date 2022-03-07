@@ -89,9 +89,7 @@ The variant prop adds the Bootstrap v5 class .btn-<code>variant</code> on the re
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">outline</span> <span class="token attr-name">variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dark<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Dark<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="block-level-buttons" tabindex="-1"><a class="header-anchor" href="#block-level-buttons" aria-hidden="true">#</a> Block level buttons</h2>
 <p>Block Level button is a full width button of its container. Use prop <code>block</code> to make a block/full width button.</p>
-<div class="bootstrap">
 <WButton block variant="primary">Block Level Button</WButton>
-</div>
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">block</span> <span class="token attr-name">variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Block Level Button<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="pill-style" tabindex="-1"><a class="header-anchor" href="#pill-style" aria-hidden="true">#</a> Pill style</h2>
 <p>Prefer buttons with a more rounded-pill style? Just set the prop pill to <code>true</code>.</p>
@@ -135,7 +133,13 @@ buttons rendered as <code>a</code> elements and `router-link (i.e. with the href
 <li><code>null</code>: (default) Neither the class .active nor the attribute <code>aria-pressed</code> will be
 set.</li>
 </ul>
-<h2 id="component-reference" tabindex="-1"><a class="header-anchor" href="#component-reference" aria-hidden="true">#</a> Component reference</h2>
+<h2 id="buttons-with-badges" tabindex="-1"><a class="header-anchor" href="#buttons-with-badges" aria-hidden="true">#</a> Buttons with Badges</h2>
+<p>Use prop <code>badge</code> to set button badges</p>
+<WButton :badge="14" class="me-2" badge-variant="primary">Inbox</WButton>
+<WButton :badge="20" badge-variant="primary">Sent</WButton>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">:badge</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>14<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>me-2<span class="token punctuation">"</span></span> <span class="token attr-name">badge-variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Inbox<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">:badge</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>20<span class="token punctuation">"</span></span> <span class="token attr-name">badge-variant</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Sent<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="component-reference" tabindex="-1"><a class="header-anchor" href="#component-reference" aria-hidden="true">#</a> Component reference</h2>
 <WTable bordered hover striped>
     <WTHead class="bg-dark text-light">
     <WTr>
@@ -156,11 +160,8 @@ set.</li>
 </WTable>
 </template>
 
-<script>
-export default {
-    data(){
-        return {
-            componentReference: {
+<script setup>
+const componentReference= {
                 header: [
                     "Property",
                     "Type",
@@ -245,9 +246,6 @@ export default {
                     ]
                 ]
             }
-        }
-    }
-}
 </script>
 
 <style>
