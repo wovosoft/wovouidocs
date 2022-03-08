@@ -7,8 +7,14 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1646667350000,
+    "contributors": [
+      {
+        "name": "Narayan Adhikary",
+        "email": "wovosoft@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "form/textarea.md"
 }
