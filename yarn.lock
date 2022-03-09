@@ -627,15 +627,16 @@
   dependencies:
     "vue" "^3.2.25"
 
-"@wovosoft/wovoui@^0.2.18":
-  "integrity" "sha512-RyumIK7uB4Cv2BAiLeQ59y/z29aoeG82ZH2ahxWGnI1E82JWDT87RpZgohW3Yv5fpWcglOR5lkt8rS2HqzOqeA=="
-  "resolved" "https://registry.npmjs.org/@wovosoft/wovoui/-/wovoui-0.2.18.tgz"
-  "version" "0.2.18"
+"@wovosoft/wovoui@^0.2.19":
+  "integrity" "sha512-RvRcqtBkG2dSftsGbc+aAM78h3eFPpfOJT1JzMzqPuIw7dftfy/ekmcd9XUNt843TS0eTcJhzAbnEfTvWrbpRw=="
+  "resolved" "https://registry.npmjs.org/@wovosoft/wovoui/-/wovoui-0.2.19.tgz"
+  "version" "0.2.19"
   dependencies:
     "@popperjs/core" "^2.10.2"
     "@wovosoft/wovoui-icons" "^0.0.3"
     "bootstrap" "^5.1.3"
     "bootstrap-icons" "^1.7.2"
+    "chart.js" "^3.7.1"
     "dayjs" "^1.10.7"
     "highlight.js" "^11.4.0"
     "lodash" "^4.17.21"
@@ -966,6 +967,11 @@
   dependencies:
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
+
+"chart.js@^3.7.1":
+  "integrity" "sha512-8knRegQLFnPQAheZV8MjxIXc5gQEfDFD897BJgv/klO/vtIyFFmgMXrNfgrXpbTr/XbTturxRgxIXx/Y+ASJBA=="
+  "resolved" "https://registry.npmjs.org/chart.js/-/chart.js-3.7.1.tgz"
+  "version" "3.7.1"
 
 "chokidar@^3.5.2", "chokidar@>=3.0.0 <4.0.0":
   "integrity" "sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ=="

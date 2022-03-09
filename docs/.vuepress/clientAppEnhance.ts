@@ -1,7 +1,6 @@
 import {defineClientAppEnhance} from '@vuepress/client'
-import * as components from "@wovosoft/wovoui";
-
-// import * as components from "./../../../wovoui/src/index";
+// import * as components from "@wovosoft/wovoui";
+import * as components from "./../../../wovoui/src/index";
 
 import * as icons from "@wovosoft/wovoui-icons";
 

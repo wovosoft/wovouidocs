@@ -9,32 +9,30 @@ export const pagesComponents = {
   "v-3352235f": defineAsyncComponent(() => import(/* webpackChunkName: "v-3352235f" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/alerts/index.html.vue")),
   // path: /aspect/
   "v-3fd8e9be": defineAsyncComponent(() => import(/* webpackChunkName: "v-3fd8e9be" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/aspect/index.html.vue")),
-  // path: /breadcrumbs/
-  "v-76a6e250": defineAsyncComponent(() => import(/* webpackChunkName: "v-76a6e250" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/breadcrumbs/index.html.vue")),
   // path: /badges/
   "v-555fbfe6": defineAsyncComponent(() => import(/* webpackChunkName: "v-555fbfe6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/badges/index.html.vue")),
-  // path: /cards/
-  "v-78191965": defineAsyncComponent(() => import(/* webpackChunkName: "v-78191965" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/cards/index.html.vue")),
+  // path: /breadcrumbs/
+  "v-76a6e250": defineAsyncComponent(() => import(/* webpackChunkName: "v-76a6e250" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/breadcrumbs/index.html.vue")),
   // path: /buttons/groups.html
   "v-62839e5e": defineAsyncComponent(() => import(/* webpackChunkName: "v-62839e5e" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/buttons/groups.html.vue")),
   // path: /buttons/
   "v-d6c3ca72": defineAsyncComponent(() => import(/* webpackChunkName: "v-d6c3ca72" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/buttons/index.html.vue")),
   // path: /calendar/
   "v-96167c50": defineAsyncComponent(() => import(/* webpackChunkName: "v-96167c50" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/calendar/index.html.vue")),
+  // path: /cards/
+  "v-78191965": defineAsyncComponent(() => import(/* webpackChunkName: "v-78191965" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/cards/index.html.vue")),
   // path: /carousel/
   "v-03d41ff6": defineAsyncComponent(() => import(/* webpackChunkName: "v-03d41ff6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/carousel/index.html.vue")),
   // path: /close-button/
   "v-27b91be2": defineAsyncComponent(() => import(/* webpackChunkName: "v-27b91be2" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/close-button/index.html.vue")),
-  // path: /content/table.html
-  "v-4edc03da": defineAsyncComponent(() => import(/* webpackChunkName: "v-4edc03da" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/content/table.html.vue")),
   // path: /collapse/
   "v-6e85a749": defineAsyncComponent(() => import(/* webpackChunkName: "v-6e85a749" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/collapse/index.html.vue")),
+  // path: /content/table.html
+  "v-4edc03da": defineAsyncComponent(() => import(/* webpackChunkName: "v-4edc03da" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/content/table.html.vue")),
   // path: /dropdowns/
   "v-2394e1a6": defineAsyncComponent(() => import(/* webpackChunkName: "v-2394e1a6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/index.html.vue")),
   // path: /dropdowns/input.html
   "v-d02a7d16": defineAsyncComponent(() => import(/* webpackChunkName: "v-d02a7d16" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/dropdowns/input.html.vue")),
-  // path: /getting-started/
-  "v-ccdc4da0": defineAsyncComponent(() => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.vue")),
   // path: /form/checkbox.html
   "v-2643f7a4": defineAsyncComponent(() => import(/* webpackChunkName: "v-2643f7a4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/checkbox.html.vue")),
   // path: /form/group.html
@@ -55,10 +53,10 @@ export const pagesComponents = {
   "v-2ecfa7e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-2ecfa7e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/tags.html.vue")),
   // path: /form/textarea.html
   "v-b23622e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-b23622e6" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/form/textarea.html.vue")),
+  // path: /getting-started/
+  "v-ccdc4da0": defineAsyncComponent(() => import(/* webpackChunkName: "v-ccdc4da0" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/getting-started/index.html.vue")),
   // path: /icons/
   "v-fb1db6e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb1db6e4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/icons/index.html.vue")),
-  // path: /menu/
-  "v-14f29757": defineAsyncComponent(() => import(/* webpackChunkName: "v-14f29757" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/menu/index.html.vue")),
   // path: /layout/columns.html
   "v-d5e2f370": defineAsyncComponent(() => import(/* webpackChunkName: "v-d5e2f370" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/layout/columns.html.vue")),
   // path: /layout/grid.html
@@ -69,20 +67,22 @@ export const pagesComponents = {
   "v-6789dd2c": defineAsyncComponent(() => import(/* webpackChunkName: "v-6789dd2c" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/layout/index.html.vue")),
   // path: /list-group/
   "v-366a25f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-366a25f4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/list-group/index.html.vue")),
-  // path: /navs-and-tabs/
-  "v-5a0fcb52": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a0fcb52" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/navs-and-tabs/index.html.vue")),
+  // path: /menu/
+  "v-14f29757": defineAsyncComponent(() => import(/* webpackChunkName: "v-14f29757" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/menu/index.html.vue")),
   // path: /modals/
   "v-99b4f720": defineAsyncComponent(() => import(/* webpackChunkName: "v-99b4f720" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/modals/index.html.vue")),
   // path: /navbar/
   "v-5db44df4": defineAsyncComponent(() => import(/* webpackChunkName: "v-5db44df4" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/navbar/index.html.vue")),
+  // path: /navs-and-tabs/
+  "v-5a0fcb52": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a0fcb52" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/navs-and-tabs/index.html.vue")),
   // path: /offcanvas/
   "v-53bead41": defineAsyncComponent(() => import(/* webpackChunkName: "v-53bead41" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/offcanvas/index.html.vue")),
+  // path: /pagination/
+  "v-defd3988": defineAsyncComponent(() => import(/* webpackChunkName: "v-defd3988" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/pagination/index.html.vue")),
   // path: /placeholders/
   "v-30046c76": defineAsyncComponent(() => import(/* webpackChunkName: "v-30046c76" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/placeholders/index.html.vue")),
   // path: /popover/
   "v-031b3fba": defineAsyncComponent(() => import(/* webpackChunkName: "v-031b3fba" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/popover/index.html.vue")),
-  // path: /pagination/
-  "v-defd3988": defineAsyncComponent(() => import(/* webpackChunkName: "v-defd3988" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/pagination/index.html.vue")),
   // path: /progress/
   "v-76904e6e": defineAsyncComponent(() => import(/* webpackChunkName: "v-76904e6e" */"E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.temp/pages/progress/index.html.vue")),
   // path: /spinner/
