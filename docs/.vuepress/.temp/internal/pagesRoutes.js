@@ -3,8 +3,8 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 const routeItems = [
   ["v-8daa1a0e","/",{"title":"Introduction"},["/index.html","/index.md"]],
   ["v-caf798c0","/accordion/",{"title":"Accordion"},["/accordion/index.html","/accordion/index.md"]],
-  ["v-3352235f","/alerts/",{"title":"Alerts"},["/alerts/index.html","/alerts/index.md"]],
   ["v-3fd8e9be","/aspect/",{"title":"Aspect Ratio"},["/aspect/index.html","/aspect/index.md"]],
+  ["v-3352235f","/alerts/",{"title":"Alerts"},["/alerts/index.html","/alerts/index.md"]],
   ["v-555fbfe6","/badges/",{"title":"Badges"},["/badges/index.html","/badges/index.md"]],
   ["v-76a6e250","/breadcrumbs/",{"title":"Breadcrumbs"},["/breadcrumbs/index.html","/breadcrumbs/index.md"]],
   ["v-62839e5e","/buttons/groups.html",{"title":"Button Groups"},["/buttons/groups","/buttons/groups.md"]],
