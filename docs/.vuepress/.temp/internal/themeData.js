@@ -21,6 +21,7 @@ export const themeData = {
         "/buttons/toolbars/",
         "/cards/",
         "/carousel/",
+        "/charts/",
         "/close-button/",
         "/collapse/",
         "/calendar/",

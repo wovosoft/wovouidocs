@@ -3,8 +3,8 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 const routeItems = [
   ["v-8daa1a0e","/",{"title":"Introduction"},["/index.html","/index.md"]],
   ["v-caf798c0","/accordion/",{"title":"Accordion"},["/accordion/index.html","/accordion/index.md"]],
-  ["v-3fd8e9be","/aspect/",{"title":"Aspect Ratio"},["/aspect/index.html","/aspect/index.md"]],
   ["v-3352235f","/alerts/",{"title":"Alerts"},["/alerts/index.html","/alerts/index.md"]],
+  ["v-3fd8e9be","/aspect/",{"title":"Aspect Ratio"},["/aspect/index.html","/aspect/index.md"]],
   ["v-555fbfe6","/badges/",{"title":"Badges"},["/badges/index.html","/badges/index.md"]],
   ["v-76a6e250","/breadcrumbs/",{"title":"Breadcrumbs"},["/breadcrumbs/index.html","/breadcrumbs/index.md"]],
   ["v-62839e5e","/buttons/groups.html",{"title":"Button Groups"},["/buttons/groups","/buttons/groups.md"]],
@@ -12,6 +12,7 @@ const routeItems = [
   ["v-96167c50","/calendar/",{"title":"Calendar"},["/calendar/index.html","/calendar/index.md"]],
   ["v-78191965","/cards/",{"title":"Cards"},["/cards/index.html","/cards/index.md"]],
   ["v-03d41ff6","/carousel/",{"title":"Carousel"},["/carousel/index.html","/carousel/index.md"]],
+  ["v-d3da4d3e","/charts/",{"title":"Charts"},["/charts/index.html","/charts/index.md"]],
   ["v-27b91be2","/close-button/",{"title":"Close Button"},["/close-button/index.html","/close-button/index.md"]],
   ["v-6e85a749","/collapse/",{"title":"Collapse"},["/collapse/index.html","/collapse/index.md"]],
   ["v-4edc03da","/content/table.html",{"title":"Tables"},["/content/table","/content/table.md"]],

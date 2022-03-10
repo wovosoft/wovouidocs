@@ -14,6 +14,7 @@ export default [
             '/buttons/toolbars/',
             '/cards/',
             '/carousel/',
+            '/charts/',
             '/close-button/',
             '/collapse/',
             '/calendar/',
@@ -65,7 +66,7 @@ export default [
         text: 'Content',
         collapsible: true,
         children: [
-            "/content/table/"
+            "/content/table/",
         ]
     },
 

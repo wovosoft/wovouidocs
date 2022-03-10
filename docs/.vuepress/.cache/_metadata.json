@@ -1,16 +1,11 @@
 {
-  "hash": "18155711",
-  "browserHash": "4502c32b",
+  "hash": "eed9366f",
+  "browserHash": "0897c8ef",
   "optimized": {
-    "lodash/string.js": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/lodash_string_js.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/lodash/string.js",
-      "needsInterop": true
-    },
-    "lodash": {
-      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/lodash.js",
-      "src": "E:/narayan/laragon/www/wovoui/node_modules/lodash/lodash.js",
-      "needsInterop": true
+    "chart.js/auto": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/chart_js_auto.js",
+      "src": "E:/narayan/laragon/www/wovoui/node_modules/chart.js/auto/auto.esm.js",
+      "needsInterop": false
     },
     "dayjs": {
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/dayjs.js",
@@ -31,6 +26,16 @@
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/@popperjs_core.js",
       "src": "E:/narayan/laragon/www/wovoui/node_modules/@popperjs/core/lib/index.js",
       "needsInterop": false
+    },
+    "lodash/string.js": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/lodash_string_js.js",
+      "src": "E:/narayan/laragon/www/wovoui/node_modules/lodash/string.js",
+      "needsInterop": true
+    },
+    "lodash": {
+      "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/lodash.js",
+      "src": "E:/narayan/laragon/www/wovoui/node_modules/lodash/lodash.js",
+      "needsInterop": true
     },
     "vue": {
       "file": "E:/narayan/laragon/www/wovouivuepress/docs/.vuepress/.cache/vue.js",
